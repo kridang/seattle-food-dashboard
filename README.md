@@ -1,6 +1,6 @@
 # Seattle Restaurant Dashboard
 
-Team Members
+Kristy Dang, Jeffrey Junio, Jonny Sung, Paisley Wu, Allen Yuan
 
 Project URL: kridang.github.io/seattle-food-dashboard
 ---
