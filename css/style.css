@@ -1,0 +1,35 @@
+header {
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 2rem;
+  color: #962585;
+  font-weight: bolder;
+}
+
+header .nav-bar a {
+  font-size: 1rem;
+  padding: 0 1.5rem;
+  color: #666;
+}
+
+header .nav-bar a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+header .icons a {
+  color: #333;
+  margin-left: 1.5rem;
+}
+
+header .icons a, header .nav-bar a:hover {
+  text-decoration-color: rgb(181, 181, 181);
+}
