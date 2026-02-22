@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>Seattle Food Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="" rel="stylesheet"> add google font link later-->
+
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!--  and links to about and contact -->
-  <div id="map"></div>
-  <!-- div for charts and tables? -->
 
+  <header>
+    <div class="logo">
+      <a>Seattle Food Dashboard</a>
+    </div>
 
+    <nav class="nav-bar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="map.html">View Map</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Explore Seattle Restaurants Smarter</h1>
+    <p>
+      Discover restaurants around Seattle using interactive maps,
+      filters, and coordinated visualizations.
+    </p>
+    <a href="#dashboard" class="hero-btn">Start Exploring</a>
+  </section>
+
+  <section id="dashboard" class="dashboard-container">
+
+    <div class="dashboard-sidebar">
+
+      <h2>Filters & Insights</h2>
+
+      <div class="dashboard-card">
+        <h3>Filter by Rating</h3>
+      </div>
+
+      <div class="dashboard-card">
+        <h3>Price Distribution</h3>
+      </div>
+
+      <div class="dashboard-card">
+        <h3>Top Categories</h3>
+      </div>
+
+    </div>
+
+    <div class="dashboard-map">
+      <div id="map"></div>
+    </div>
+
+  </section>
+
+  <div class="footer">
+    © 2026 Seattle Food Dashboard | University of Washington
+  </div>
+
+  <!-- Mapbox JS (to be added later) -->
+  <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script> -->
   <!-- <script src="js/main.js"></script> -->
+
 </body>
 
 </html>
