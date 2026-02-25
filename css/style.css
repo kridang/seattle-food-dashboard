@@ -1,5 +1,4 @@
-/* for all pages */
-
+/* ALL PAGES */
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +11,7 @@ body {
   color: #333;
 }
 
-/* header and navbar css */
-
+/* HEADER, NAVBAR css */
 header {
   padding: 2rem 9%;
   display: flex;
@@ -61,8 +59,17 @@ header .nav-bar a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-/* about page css  */
+/* FOOTER css */
+.footer {
+  text-align: center;
+  padding: 2rem 9%;
+  background-color: #f8f8f8;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
 
+/* ABOUT css  */
 .about-container {
   max-width: 900px;
   margin: 4rem auto;
@@ -99,26 +106,90 @@ header .nav-bar a:hover {
   margin-bottom: 0.6rem;
 }
 
-/* footer css */
-
-.footer {
+/* HOMEPAGE css */
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 9%;
   text-align: center;
-  padding: 2rem 9%;
   background-color: #f8f8f8;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-  color: #666;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; 
 }
 
-/* css for map (change when we start making the map) */
+.hero h1 {
+  font-size: 2.5rem;
+  color: #962585;
+  margin-bottom: 1rem;
+}
 
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  background-color: #962585;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.hero a:hover {
+  background-color: #7a1f6f;
+}
+
+.dashboard-container {
+  display: flex;
+  padding: 4rem 9%;
+  gap: 2rem;
+}
+
+.dashboard-sidebar {
+  flex: 1;
+}
+
+.dashboard-sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #962585;
+}
+
+.dashboard-map {
+  flex: 2;
+}
+
+.dashboard-map #map {
+  height: 600px; 
+  border-radius: 6px;
+}
+
+/* MAP CSS (change when we start making the map) */
 #map {
   width: 100%;
   height: 100vh;
 }
 
-/* responsive design css  */
-
+/* RESPONSIVE css  */
 @media (max-width: 768px) {
 
   header {
@@ -150,82 +221,6 @@ header .nav-bar a:hover {
   }
 
 }
-
-/* homepage stuff */
-
-.hero {
-  padding: 4rem 9%;
-  text-align: center;
-  background-color: #f8f8f8;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  color: #962585;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 2rem;
-}
-
-.hero a {
-  display: inline-block;
-  padding: 0.7rem 2rem;
-  background-color: #962585;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: 0.3s ease;
-}
-
-.hero a:hover {
-  background-color: #7a1f6f;
-}
-
-
-.dashboard-container {
-  display: flex;
-  padding: 4rem 9%;
-  gap: 2rem;
-}
-
-.dashboard-sidebar {
-  flex: 1;
-}
-
-.dashboard-sidebar h2 {
-  font-size: 1.4rem;
-  margin-bottom: 1.5rem;
-  color: #444;
-}
-
-
-.dashboard-card {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 6px;
-  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
-}
-
-.dashboard-card h3 {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  color: #962585;
-}
-
-.dashboard-map {
-  flex: 2;
-}
-
-.dashboard-map #map {
-  height: 600px; 
-  border-radius: 6px;
-}
-
 
 @media (max-width: 900px) {
 

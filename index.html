@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="logo">
       <a>Seattle Food Dashboard</a>
@@ -31,15 +30,16 @@
       Discover restaurants around Seattle using interactive maps,
       filters, and coordinated visualizations.
     </p>
-    <a href="#dashboard" class="hero-btn">Start Exploring</a>
+
+    <div class="hero-buttons">
+      <a href="#dashboard" class="hero-btn">Start Exploring</a>
+      <a href="about.html" class="hero-btn">Learn More</a>
+    </div>
   </section>
 
   <section id="dashboard" class="dashboard-container">
-
     <div class="dashboard-sidebar">
-
       <h2>Filters & Insights</h2>
-
       <div class="dashboard-card">
         <h3>Filter by Rating</h3>
       </div>
@@ -51,13 +51,15 @@
       <div class="dashboard-card">
         <h3>Top Categories</h3>
       </div>
-
     </div>
 
     <div class="dashboard-map">
       <div id="map"></div>
     </div>
 
+    <div class="bottom"> <!-- we want it like an L shape right? or just a side panel? -->
+      <!-- for restaurant details, legend? -->
+    </div>
   </section>
 
   <div class="footer">
@@ -67,7 +69,8 @@
   <!-- Mapbox JS (to be added later) -->
   <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script> -->
   <!-- <script src="js/main.js"></script> -->
-
+  <!-- <script src="js/d3.js"></script>
+  <script src="js/c3.min.js"></script> -->
 </body>
 
 </html>
