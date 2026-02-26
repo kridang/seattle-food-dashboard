@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="logo">
       <a>Seattle Food Dashboard</a>
@@ -24,6 +23,89 @@
     </nav>
   </header>
 
+  <!-- kri working on this slider -->
+  <div class="team-container">
+    <h1>Contact The Team!</h1>
+    <p>
+      If you have questions, suggestions, or feedback about the Seattle Food Dashboard,
+      we would love to hear from you.
+    </p>
+
+    <div class="slide active">
+        <div class="card">
+          <img src="img/js.jpg" alt="Jonny Sung">
+          <div class="container">
+            <h2>Jonny Sung</h2>
+            <p>description</p>
+            <p>jsung@uw.edu</p>
+            <p><button class="button" onclick="window.location.href='mailto:jsung@uw.edu'">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+    <div class="slide">
+      <div class="card">
+        <img src="img/kd.jpg" alt="Kristy Dang">
+        <div class="container">
+          <h2>Kristy Dang</h2>
+          <p>description</p>
+          <p>kridang@uw.edu</p>
+          <p><button class="button" onclick="window.location.href='mailto:kridang@uw.edu'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="card">
+        <img src="img/jj.jpg" alt="Jefferey Junio">
+        <div class="container">
+          <h2>Jefferey Junio</h2>
+          <p>description</p>
+          <p>jeffrj3@uw.edu</p>
+          <p><button class="button" onclick="window.location.href='mailto:jeffrj3@uw.edu'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="card">
+        <img src="img/pw.jpg" alt="Paisley Wu">
+        <div class="container">
+          <h2>Paisley Wu</h2>
+          <p>description</p>
+          <p>yuewew2@uw.edu</p>
+          <p><button class="button" onclick="window.location.href='mailto:yuewew2@uw.edu'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="card">
+        <img src="img/ay.jpg" alt="Allen Yuan">
+        <div class="container">
+          <h2>Allen Yuan</h2>
+          <p>description</p>
+          <p>jiach@uw.edu</p>
+          <p><button class="button" onclick="window.location.href='mailto:jiach@uw.edu'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlide(-1)">❮</a>
+  <a class="next" onclick="plusSlide(1)">❯</a>
+
+  <div class="slide-counter">
+    <span id="current-slide">1</span> / <span id="total-slides">5</span>
+  </div>
+
+  <div class="dots-container">
+    <span class="dot active" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+    <span class="dot" onclick="goToSlide(3)"></span>
+    <span class="dot" onclick="goToSlide(4)"></span>
+    <span class="dot" onclick="goToSlide(5)"></span>
+  </div>
 
   <div class="about-container">
 
@@ -58,7 +140,11 @@
   <div class="footer">
     © 2026 Seattle Food Dashboard | University of Washington
   </div>
-
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 5;
+  </script>
+  <script src="js/main.js"></script>  
 </body>
 
 </html>

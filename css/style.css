@@ -23,10 +23,13 @@ header {
 }
 
 header .logo {
+  display: flex;
+  align-items: center;
   font-size: 2rem;
   color: #962585;
   font-weight: bolder;
   text-decoration: none;
+  gap: 0.5rem;
 }
 
 header .nav-bar a {
@@ -57,6 +60,13 @@ header .icons a {
 header .icons a,
 header .nav-bar a:hover {
   text-decoration-color: rgb(181, 181, 181);
+}
+
+header .logo-img {
+  width: 50px;
+  height: auto;
+  margin-right: 0.5rem;
+  display: block;
 }
 
 /* FOOTER css */
@@ -232,4 +242,47 @@ header .nav-bar a:hover {
     height: 400px;
   }
 
+}
+
+/* CONTACT CSS */
+.team-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 40px 60px 40px;
+  background: #a8679f;
+}
+
+.slide {
+  display: none;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+}
+
+.dots-container {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background-color: #7c6b92;
+  transform: scale(1.4);
+}
+
+.dot:hover {
+  background-color: #be9ad6;
 }
