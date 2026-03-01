@@ -1,4 +1,4 @@
-// mapboxgl.accessToken = 
+mapboxgl.accessToken = null;
 
 let map = new mapboxgl.Map({
     container: 'map',
