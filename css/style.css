@@ -137,7 +137,7 @@ header #cta {
   /* background-color: #f8f8f8; */ /* pretty much just white ?, it blocks the drop-shadow of the header so I left out */
   height: 100vh;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .hero h1 {
@@ -297,4 +297,31 @@ header #cta {
 
 .dot:hover {
   background-color: #be9ad6;
+}
+
+/* front page background */
+.hero {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1,
+.hero p {
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.45);
 }
