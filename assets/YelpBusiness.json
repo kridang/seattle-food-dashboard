@@ -1,0 +1,3149 @@
+{
+  "businesses": [
+    {
+      "id": "VOPdG8llLPaga9iJxXcMuQ",
+      "alias": "the-pink-door-seattle-4",
+      "name": "The Pink Door",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/eoprX31aQdY0llOhuxEJRg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-pink-door-seattle-4?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 7920,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        },
+        {
+          "alias": "pastashops",
+          "title": "Pasta Shops"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.61028,
+        "longitude": -122.3425
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "1919 Post Alley",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1919 Post Alley",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12064433241",
+      "display_phone": "(206) 443-3241",
+      "distance": 1766.3539820988492,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.thepinkdoor.net/menus",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Lw7NmZ3j-WEye97ywEmkXQ",
+      "alias": "vons-1000-spirits-seattle-4",
+      "name": "Von's 1000 Spirits",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/zpfkIzh2I-SynGJokmljrw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/vons-1000-spirits-seattle-4?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 3931,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "pubs",
+          "title": "Pubs"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 47.606565,
+        "longitude": -122.338337
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1225 1st Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1225 1st Ave",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12066218667",
+      "display_phone": "(206) 621-8667",
+      "distance": 2118.559315070285,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0100",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.vons1000spirits.com/menu/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "YhWzCrNLz2bb4LDi7stPjQ",
+      "alias": "six-seven-restaurant-seattle-3",
+      "name": "Six Seven Restaurant",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LwEdGkiZ4z6HNGdTZJEmzg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/six-seven-restaurant-seattle-3?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1411,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.1,
+      "coordinates": {
+        "latitude": 47.61238,
+        "longitude": -122.352218
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "2411 Alaskan Way",
+        "address2": "Pier 67",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2411 Alaskan Way",
+          "Pier 67",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12062694575",
+      "display_phone": "(206) 269-4575",
+      "distance": 1927.4086403341153,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1400",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1400",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.edgewaterhotel.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "Je-RAH1RnAbY8uqBjJkloA",
+      "alias": "ludis-restaurant-and-lounge-seattle",
+      "name": "Ludi's Restaurant & Lounge",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZfWl5YR39SoX20504jRVdg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ludis-restaurant-and-lounge-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 745,
+      "categories": [
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        },
+        {
+          "alias": "filipino",
+          "title": "Filipino"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.7,
+      "coordinates": {
+        "latitude": 47.61092,
+        "longitude": -122.34078
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "120 Stewart St",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "120 Stewart St",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12062392728",
+      "display_phone": "(206) 239-2728",
+      "distance": 1679.265801574995,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "1430",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "09FLRYnePKcUwGDDPIOAkg",
+      "alias": "biscuit-bitch-seattle",
+      "name": "Biscuit Bitch",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/_ZxNsz_q3JlfjgMW3mBSZQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/biscuit-bitch-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 5143,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "southern",
+          "title": "Southern"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 47.610403716627935,
+        "longitude": -122.3418319979317
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1909 1st Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1909 1st Ave",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12064417999",
+      "display_phone": "(206) 441-7999",
+      "distance": 1746.6614843618133,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0730",
+              "end": "1300",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://biscuitbitch.square.site/?location=11ea68c98f76d396a76c0cc47a2b1e8c",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "f9cpxpxn6xN_c3ZnXdeqUA",
+      "alias": "paju-seattle-2",
+      "name": "Paju",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Sucj8Jxw8Lm6QcZO7dZ3Zw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/paju-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 415,
+      "categories": [
+        {
+          "alias": "korean",
+          "title": "Korean"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 47.62383,
+        "longitude": -122.33866807404584
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "513 Westlake Ave N",
+        "address2": null,
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98109",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "513 Westlake Ave N",
+          "Seattle, WA 98109"
+        ]
+      },
+      "phone": "+12068298215",
+      "display_phone": "(206) 829-8215",
+      "distance": 302.62197332182035,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.pajurestaurant.com/Menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "UzaMrsDMM7xmxtWLPTrmKw",
+      "alias": "shaker-spear-seattle-2",
+      "name": "Shaker + Spear",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/-iwl5pmYEYSPbQeE5uuThA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/shaker-spear-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1231,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.61203,
+        "longitude": -122.34165
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2000 2nd Ave",
+        "address2": null,
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2000 2nd Ave",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12068261700",
+      "display_phone": "(206) 826-1700",
+      "distance": 1581.6172633743972,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.shakerandspear.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "UzL8_jvtznfsFDprG-O1UA",
+      "alias": "biang-biang-noodles-seattle-2",
+      "name": "Biang Biang Noodles",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/JYa1Xrx5hW73XO5E1ZjKHQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/biang-biang-noodles-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1681,
+      "categories": [
+        {
+          "alias": "noodles",
+          "title": "Noodles"
+        },
+        {
+          "alias": "szechuan",
+          "title": "Szechuan"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.613937,
+        "longitude": -122.324239
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "601 E Pike St",
+        "address2": "Unit 100",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98122",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "601 E Pike St",
+          "Unit 100",
+          "Seattle, WA 98122"
+        ]
+      },
+      "phone": "+12068098999",
+      "display_phone": "(206) 809-8999",
+      "distance": 1548.1129681479067,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2130",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2130",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "j2maiRNh_ErcsvPBiZCkqw",
+      "alias": "asadero-ballard-seattle",
+      "name": "Asadero Ballard",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/32sOTfuncUZqw3zyj-zXjQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/asadero-ballard-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1531,
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.66687,
+        "longitude": -122.38282
+      },
+      "transactions": [
+        "delivery",
+        "pickup",
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "5405 Leary Ave NW",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98107",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "5405 Leary Ave NW",
+          "Seattle, WA 98107"
+        ]
+      },
+      "phone": "+12066594499",
+      "display_phone": "(206) 659-4499",
+      "distance": 5804.244999503019,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.asaderoprime.com/location/asadero-prime-ballard/#menus",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "NaGkRnNbLcJdI8cF8JE3hw",
+      "alias": "tilikum-place-cafe-seattle-3",
+      "name": "Tilikum Place Cafe",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/gYYg6Xl91oBkWtxqG_k6RA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/tilikum-place-cafe-seattle-3?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 2422,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "desserts",
+          "title": "Desserts"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.617982,
+        "longitude": -122.347691
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "407 Cedar St",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "407 Cedar St",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12062824830",
+      "display_phone": "(206) 282-4830",
+      "distance": 1239.7675564771948,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "1400",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "1400",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1400",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1400",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://places.singleplatform.com/tilicum-place-cafe/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "m7hqwHm3y-afNBsrPfHwww",
+      "alias": "tanoor-seattle-3",
+      "name": "Tanoor",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/IeTahxqkhZSriBd0HkBdpA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/tanoor-seattle-3?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 367,
+      "categories": [
+        {
+          "alias": "lebanese",
+          "title": "Lebanese"
+        },
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "halal",
+          "title": "Halal"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 47.626933,
+        "longitude": -122.342599
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "803 Dexter Ave N",
+        "address2": null,
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98109",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "803 Dexter Ave N",
+          "Seattle, WA 98109"
+        ]
+      },
+      "phone": "+12064575272",
+      "display_phone": "(206) 457-5272",
+      "distance": 553.8551820002119,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.tanoor.com/menu.html",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "6I28wDuMBR5WLMqfKxaoeg",
+      "alias": "pike-place-chowder-seattle-7",
+      "name": "Pike Place Chowder",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UmL-0XUIWPCo1R73XnCMkg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/pike-place-chowder-seattle-7?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 9710,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "soup",
+          "title": "Soup"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.60939266723893,
+        "longitude": -122.3411332101374
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1530 Post Aly",
+        "address2": "Ste 11",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1530 Post Aly",
+          "Ste 11",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12062672537",
+      "display_phone": "(206) 267-2537",
+      "distance": 1842.4210894368032,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1700",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.pikeplacechowder.com/pike-place-market-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "xqH038QcquJEMm5LIZHd5w",
+      "alias": "elliotts-oyster-house-seattle-2",
+      "name": "Elliott's Oyster House",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/xNY2v50gTdPQJVm5FCs5MA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/elliotts-oyster-house-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 4804,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 3.9,
+      "coordinates": {
+        "latitude": 47.605426,
+        "longitude": -122.340786
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "1201 Alaskan Way",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1201 Alaskan Way",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12066234340",
+      "display_phone": "(206) 623-4340",
+      "distance": 2269.339108780135,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.elliottsoysterhouse.com/waterfront-lunch/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Aj1oSIHJwbteXYfYquzUOA",
+      "alias": "bangrak-market-seattle",
+      "name": "Bangrak Market",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/E3zqsKtW-hp3HYO0IfzKyg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bangrak-market-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1862,
+      "categories": [
+        {
+          "alias": "bars",
+          "title": "Bars"
+        },
+        {
+          "alias": "thai",
+          "title": "Thai"
+        },
+        {
+          "alias": "tapasmallplates",
+          "title": "Tapas/Small Plates"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.614263,
+        "longitude": -122.346387
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2319 2nd Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2319 2nd Ave",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12067357352",
+      "display_phone": "(206) 735-7352",
+      "distance": 1494.1607250767297,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "0000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "0000",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "0000",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "0000",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0200",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1200",
+              "end": "0200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2300",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.bangrakmarket.com/menu-1",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "r2qcG59sAqqptnwL4aJGhg",
+      "alias": "toulouse-petit-kitchen-and-lounge-seattle",
+      "name": "Toulouse Petit Kitchen & Lounge",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/k1GH4wwsRXlxrc-D-IYBKg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/toulouse-petit-kitchen-and-lounge-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 5430,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 47.624851,
+        "longitude": -122.357127
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "601 Queen Anne Ave N",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98109",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "601 Queen Anne Ave N",
+          "Seattle, WA 98109"
+        ]
+      },
+      "phone": "+12064329069",
+      "display_phone": "(206) 432-9069",
+      "distance": 1622.1236953932112,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "2300",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "2300",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "2300",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "0000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "0000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "2300",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://toulousepetit.com/menus",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "nwNof9-Z2KJyGl1yRf-5_A",
+      "alias": "the-ballard-cut-seattle",
+      "name": "The Ballard Cut",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/QB4rTJXo4B4pffYFhibVDw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-ballard-cut-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 313,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        },
+        {
+          "alias": "whiskeybars",
+          "title": "Whiskey Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 47.668504,
+        "longitude": -122.385847
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "2221 NW Market St",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98107",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2221 NW Market St",
+          "Seattle, WA 98107"
+        ]
+      },
+      "phone": "+12068298963",
+      "display_phone": "(206) 829-8963",
+      "distance": 6089.990644543868,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://theballardcut.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "V6FGMbPTLXbIEvjUwtnrBg",
+      "alias": "carmines-seattle",
+      "name": "Carmine's",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/dF7awbIamn58eOEKsFNFJQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/carmines-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 33,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.61054,
+        "longitude": -122.33469
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1420 5th Ave",
+        "address2": null,
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1420 5th Ave",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12065060886",
+      "display_phone": "(206) 506-0886",
+      "distance": 1680.3400800453742,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://carminesonfifth.com/wp-content/uploads/2025/10/Carmines-on-Fifth-Dinner-Menu.pdf",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "h1Q0Wkx5TUUZeVjJrXTwmQ",
+      "alias": "chan-seattle-seattle-2",
+      "name": "Chan Seattle",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/D_Zmlgrub1TwkqAOuR-GqQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/chan-seattle-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1183,
+      "categories": [
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        },
+        {
+          "alias": "korean",
+          "title": "Korean"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.613173,
+        "longitude": -122.333653
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "724 Pine St",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "724 Pine St",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+14256582626",
+      "display_phone": "(425) 658-2626",
+      "distance": 1381.401499266452,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://chanseattle.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "n6hB6mIctJQDn-DAH7MpGg",
+      "alias": "dukes-seafood-seattle-17",
+      "name": "Duke's Seafood",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/b3HOQilOh_8KBjHodBbLAQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/dukes-seafood-seattle-17?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1479,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "fishnchips",
+          "title": "Fish & Chips"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 47.6297280319326,
+        "longitude": -122.3304215
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1111 Fairview Ave N",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98109",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1111 Fairview Ave N",
+          "Seattle, WA 98109"
+        ]
+      },
+      "phone": "+12063829963",
+      "display_phone": "(206) 382-9963",
+      "distance": 603.2275435078299,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.dukesseafood.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "x8BFKHu7ajvXLOA0_33bbg",
+      "alias": "old-stove-brewing-pike-place-seattle-4",
+      "name": "Old Stove Brewing - Pike Place",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/yj1Gi-WcbH9BJgYtFh12xw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/old-stove-brewing-pike-place-seattle-4?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1431,
+      "categories": [
+        {
+          "alias": "brewpubs",
+          "title": "Brewpubs"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.60947174117716,
+        "longitude": -122.34255894939054
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1901 Western Ave",
+        "address2": "Ste A",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98101",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1901 Western Ave",
+          "Ste A",
+          "Seattle, WA 98101"
+        ]
+      },
+      "phone": "+12066026120",
+      "display_phone": "(206) 602-6120",
+      "distance": 1861.3531677232115,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.oldstove.com/pikeplace",
+        "open24_hours": null,
+        "waitlist_reservation": false
+      }
+    },
+    {
+      "id": "oq5KCmPFKV28BnB4hjpo_g",
+      "alias": "lola-seattle",
+      "name": "Lola",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HCI8uJbTnHh_Bgb6J3wQ4A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lola-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 4579,
+      "categories": [
+        {
+          "alias": "greek",
+          "title": "Greek"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.1,
+      "coordinates": {
+        "latitude": 47.61332873966613,
+        "longitude": -122.34020074710423
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2000 B 4th Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2000 B 4th Ave",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12064411430",
+      "display_phone": "(206) 441-1430",
+      "distance": 1400.740695291315,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.lolaseattle.com/menus/#dinner",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Cww8Q7tpjkikNXKijj5Q-w",
+      "alias": "kobuta-and-ookami-seattle-2",
+      "name": "Kobuta And Ookami",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/03hrFZ0vbLmeXI-MFdOomw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kobuta-and-ookami-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 643,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 47.61923348288192,
+        "longitude": -122.3128562
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "121 15th Ave E",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98112",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "121 15th Ave E",
+          "Seattle, WA 98112"
+        ]
+      },
+      "phone": "+12067087856",
+      "display_phone": "(206) 708-7856",
+      "distance": 1835.8370848879138,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "1500",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.kobutaandookami.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "XoLfRZ0jA8cf_MYL90OgEA",
+      "alias": "cascina-spinasse-seattle",
+      "name": "Cascina Spinasse",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/dj1qXfAXc7aqT-lwaa1i-Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cascina-spinasse-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1513,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 47.615054,
+        "longitude": -122.314429
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "1531 14th Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98122",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1531 14th Ave",
+          "Seattle, WA 98122"
+        ]
+      },
+      "phone": "+12062517673",
+      "display_phone": "(206) 251-7673",
+      "distance": 1959.6220079164282,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://spinasse.com/menu/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "rXbU5HJx6mihqazytPTgXA",
+      "alias": "kedai-makan-seattle-4",
+      "name": "Kedai Makan",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/m0X8e3POehWhSXFPS0AuvA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kedai-makan-seattle-4?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1560,
+      "categories": [
+        {
+          "alias": "malaysian",
+          "title": "Malaysian"
+        },
+        {
+          "alias": "noodles",
+          "title": "Noodles"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 47.615109,
+        "longitude": -122.313107
+      },
+      "transactions": [
+        "delivery",
+        "pickup",
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1449 E Pine St",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98122",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "1449 E Pine St",
+          "Seattle, WA 98122"
+        ]
+      },
+      "phone": "+12065353562",
+      "display_phone": "(206) 535-3562",
+      "distance": 2041.7131555665142,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.kedaimakansea.com/capitol-hill-menu",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "vLkiMZl96vJvkMaXtUEr2g",
+      "alias": "skalka-seattle-4",
+      "name": "Skalka",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ktq2hpzKSRu12eiSqxw8vQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/skalka-seattle-4?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1220,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "georgian",
+          "title": "Georgian"
+        },
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 47.604924308449704,
+        "longitude": -122.33777281165678
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "77 Spring St",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98104",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "77 Spring St",
+          "Seattle, WA 98104"
+        ]
+      },
+      "phone": "+12064088169",
+      "display_phone": "(206) 408-8169",
+      "distance": 2296.63386435632,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0900",
+              "end": "1900",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.skalkaseattle.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "G21hgCoK2RZIV0oFXBpUCQ",
+      "alias": "raising-canes-chicken-fingers-seattle-2",
+      "name": "Raising Cane's Chicken Fingers",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/IMagZUGOcUAsdLR4D-h0-g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/raising-canes-chicken-fingers-seattle-2?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 15,
+      "categories": [
+        {
+          "alias": "chickenshop",
+          "title": "Chicken Shop"
+        },
+        {
+          "alias": "hotdogs",
+          "title": "Fast Food"
+        }
+      ],
+      "rating": 3.7,
+      "coordinates": {
+        "latitude": 47.66115363577575,
+        "longitude": -122.31345494110296
+      },
+      "transactions": [],
+      "location": {
+        "address1": "4345 University Way NE",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98105",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "4345 University Way NE",
+          "Seattle, WA 98105"
+        ]
+      },
+      "phone": "+12068062861",
+      "display_phone": "(206) 806-2861",
+      "distance": 4292.655361699342,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0200",
+              "day": 0
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0200",
+              "day": 1
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0200",
+              "day": 2
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0300",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0300",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0300",
+              "day": 5
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://raisingcanes.com/menu/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "L6Djc7GP42ZZqzqNCSrvUw",
+      "alias": "la-loba-seattle-3",
+      "name": "La Loba",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/b8aPRV4AzlamnyKdH-wGMA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/la-loba-seattle-3?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 123,
+      "categories": [
+        {
+          "alias": "spanish",
+          "title": "Spanish"
+        },
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.6,
+      "coordinates": {
+        "latitude": 47.61820086356319,
+        "longitude": -122.337221171793
+      },
+      "transactions": [],
+      "location": {
+        "address1": "2125 Terry Ave",
+        "address2": "",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98121",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2125 Terry Ave",
+          "Seattle, WA 98121"
+        ]
+      },
+      "phone": "+12062899010",
+      "display_phone": "(206) 289-9010",
+      "distance": 824.1486463674232,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.1hotels.com/seattle/taste/la-loba#menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "-si1983MBujM26xzKPCc-g",
+      "alias": "mr-maqluba-seattle",
+      "name": "Mr Maqluba",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/NE2Ierby_fos-hhYa1hqUw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/mr-maqluba-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 8,
+      "categories": [
+        {
+          "alias": "arabian",
+          "title": "Arabic"
+        },
+        {
+          "alias": "mideastern",
+          "title": "Middle Eastern"
+        },
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        }
+      ],
+      "rating": 4.9,
+      "coordinates": {
+        "latitude": 47.690898,
+        "longitude": -122.354979
+      },
+      "transactions": [],
+      "location": {
+        "address1": "8516 Greenwood Ave",
+        "address2": "Ste N",
+        "address3": null,
+        "city": "Seattle",
+        "zip_code": "98103",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "8516 Greenwood Ave",
+          "Ste N",
+          "Seattle, WA 98103"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 7414.989074091315,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "OwOSuAvxoZpgS3KGkWr51w",
+      "alias": "how-to-cook-a-wolf-seattle",
+      "name": "How to Cook a Wolf",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XHRvU03DQy5t-SWd4mPsug/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/how-to-cook-a-wolf-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 1198,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        },
+        {
+          "alias": "tapasmallplates",
+          "title": "Tapas/Small Plates"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 47.63872834121484,
+        "longitude": -122.35678043658346
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "2208 Queen Anne Ave N",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98109",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2208 Queen Anne Ave N",
+          "Seattle, WA 98109"
+        ]
+      },
+      "phone": "+12068388090",
+      "display_phone": "(206) 838-8090",
+      "distance": 2167.4953206181053,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://howtocookawolf.com/restaurants/queen-anne-seattle?section=menu&menu=dinner-how-to-cook-a-wolf-queen-anne-seattle&mode=list",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "2FS5eBVcFJ_W461ylUs38Q",
+      "alias": "palisade-seattle",
+      "name": "Palisade",
+      "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Ps8n_cRcoA7YPEh0i2TyPA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/palisade-seattle?adjust_creative=r5jiKcP8QNZLRNsvS14pRw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=r5jiKcP8QNZLRNsvS14pRw",
+      "review_count": 2011,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 3.9,
+      "coordinates": {
+        "latitude": 47.630382918920795,
+        "longitude": -122.39158257054537
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "2601 W Marina Pl",
+        "address2": "",
+        "address3": "",
+        "city": "Seattle",
+        "zip_code": "98199",
+        "country": "US",
+        "state": "WA",
+        "display_address": [
+          "2601 W Marina Pl",
+          "Seattle, WA 98199"
+        ]
+      },
+      "phone": "+12062851000",
+      "display_phone": "(206) 285-1000",
+      "distance": 4237.003147040437,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.palisaderestaurant.com/menu.php",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    }
+  ],
+  "total": 3800,
+  "region": {
+    "center": {
+      "longitude": -122.33551025390625,
+      "latitude": 47.62541904760501
+    }
+  }
+}
