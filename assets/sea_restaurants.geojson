@@ -1,0 +1,2572 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3425312,47.6103875 ]
+    },
+    "properties": {
+    "Name":"The Pink Door",
+    "Star":4.5,
+    "Stars_count":5473,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Italian', 'Wine Bars', 'Seafood']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.314441,47.6147224 ]
+    },
+    "properties": {
+    "Name":"Nue",
+    "Star":4,
+    "Stars_count":1067,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Tapas/Small Plates', 'Cocktail Bars', 'Breakfast & Brunch']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3417918,47.6103986 ]
+    },
+    "properties": {
+    "Name":"Biscuit Bitch",
+    "Star":4,
+    "Stars_count":4046,
+    "Price":"$",
+    "Area":"Downtown",
+    "Category":"['Breakfast & Brunch', 'Coffee & Tea', 'Southern']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3614401,47.5102205 ]
+    },
+    "properties": {
+    "Name":"2120",
+    "Star":4,
+    "Stars_count":421,
+    "Price":"$$$",
+    "Area":"Denny Triangle",
+    "Category":"['American (New)', 'Cocktail Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3290847,47.6040112 ]
+    },
+    "properties": {
+    "Name":"Witness",
+    "Star":4.5,
+    "Stars_count":847,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Southern', 'Cocktail Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3801366,47.6636067 ]
+    },
+    "properties": {
+    "Name":"The Walrus and the Carpenter",
+    "Star":4,
+    "Stars_count":1680,
+    "Price":"$$$",
+    "Area":"Ballard",
+    "Category":"['Seafood', 'Tapas/Small Plates']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35309,47.612731 ]
+    },
+    "properties": {
+    "Name":"Six Seven Restaurant",
+    "Star":4,
+    "Stars_count":1072,
+    "Price":"$$$",
+    "Area":"Interbay",
+    "Category":"['American (New)', 'Seafood', 'Cocktail Bars']",
+    "Services":"['Outdoor dining']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3475939,47.6179341 ]
+    },
+    "properties": {
+    "Name":"Tilikum Place Cafe",
+    "Star":4.5,
+    "Stars_count":2091,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['American (New)', 'Breakfast & Brunch', 'Desserts']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.341612,47.6119853 ]
+    },
+    "properties": {
+    "Name":"Shaker + Spear",
+    "Star":4.5,
+    "Stars_count":843,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['Seafood', 'American (New)', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3317974,47.629117 ]
+    },
+    "properties": {
+    "Name":"The White Swan Public House",
+    "Star":4,
+    "Stars_count":288,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Bars', 'Seafood', 'Venues & Event Spaces']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3353286,47.6126509 ]
+    },
+    "properties": {
+    "Name":"Pike Place Chowder",
+    "Star":4.5,
+    "Stars_count":7695,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Seafood', 'Soup']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3339605,47.6011107 ]
+    },
+    "properties": {
+    "Name":"Damn the Weather",
+    "Star":4,
+    "Stars_count":468,
+    "Price":"$$",
+    "Area":"Pioneer Square",
+    "Category":"['Cocktail Bars', 'American (New)']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3211449,47.6246337 ]
+    },
+    "properties": {
+    "Name":"Ishoni Yakiniku",
+    "Star":4.5,
+    "Stars_count":59,
+    "Price":"",
+    "Area":"Capitol Hill",
+    "Category":"['Barbeque', 'Japanese']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.338233,47.6193834 ]
+    },
+    "properties": {
+    "Name":"Katsu-ya Seattle",
+    "Star":4.5,
+    "Stars_count":89,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Sushi Bars', 'Japanese', 'Seafood']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3242522,47.6139534 ]
+    },
+    "properties": {
+    "Name":"Biang Biang Noodles",
+    "Star":4,
+    "Stars_count":228,
+    "Price":"$$",
+    "Area":"First Hill",
+    "Category":"['Noodles', 'Chinese']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.312985,47.6151546 ]
+    },
+    "properties": {
+    "Name":"Kedai Makan",
+    "Star":4,
+    "Stars_count":988,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Malaysian', 'Noodles']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3143994,47.6150591 ]
+    },
+    "properties": {
+    "Name":"Cascina Spinasse",
+    "Star":4.5,
+    "Stars_count":1106,
+    "Price":"$$$",
+    "Area":"Capitol Hill",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3836666,47.6665934 ]
+    },
+    "properties": {
+    "Name":"Radiator Whiskey",
+    "Star":4.5,
+    "Stars_count":1272,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Cocktail Bars', 'Comfort Food']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3567358,47.6387102 ]
+    },
+    "properties": {
+    "Name":"How To Cook a Wolf",
+    "Star":4,
+    "Stars_count":956,
+    "Price":"$$$",
+    "Area":"Queen Anne",
+    "Category":"['Italian', 'Tapas/Small Plates']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3326622,47.5988248 ]
+    },
+    "properties": {
+    "Name":"Taylor Shellfish Oyster Bar",
+    "Star":4.5,
+    "Stars_count":771,
+    "Price":"$$",
+    "Area":"Pioneer Square",
+    "Category":"['Seafood', 'Live/Raw Food']",
+    "Services":"['Waitlist opens at 3:00 pm']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3386938,47.6228842 ]
+    },
+    "properties": {
+    "Name":"re:public",
+    "Star":4,
+    "Stars_count":575,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['American (New)', 'Bars']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3402323,47.6085368 ]
+    },
+    "properties": {
+    "Name":"Pasta Casalinga",
+    "Star":4.5,
+    "Stars_count":208,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Italian', 'Pasta Shops']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3242827,47.6153475 ]
+    },
+    "properties": {
+    "Name":"Fogón Cocina Mexicana",
+    "Star":4.5,
+    "Stars_count":1601,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Mexican']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3497647,47.6155028 ]
+    },
+    "properties": {
+    "Name":"Some Random Bar",
+    "Star":4.5,
+    "Stars_count":995,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['American (New)', 'Cocktail Bars', 'Breakfast & Brunch']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3415334,47.6083206 ]
+    },
+    "properties": {
+    "Name":"Zig Zag Cafe",
+    "Star":4.5,
+    "Stars_count":1037,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Cocktail Bars', 'Mediterranean']",
+    "Services":"['Proof of vaccination required']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.337683,47.604934 ]
+    },
+    "properties": {
+    "Name":"Skalka",
+    "Star":4.5,
+    "Stars_count":274,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Breakfast & Brunch', 'Sandwiches', 'Georgian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.299028,47.5991314 ]
+    },
+    "properties": {
+    "Name":"Reckless Noodle House",
+    "Star":4.5,
+    "Stars_count":263,
+    "Price":"$$",
+    "Area":"Atlantic",
+    "Category":"['Bars', 'Noodles', 'Asian Fusion']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3369381,47.6221919 ]
+    },
+    "properties": {
+    "Name":"LOCAL Public Eatery",
+    "Star":4,
+    "Stars_count":415,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Bars', 'American (New)']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.325354,47.6142379 ]
+    },
+    "properties": {
+    "Name":"Meet Korean BBQ",
+    "Star":4.5,
+    "Stars_count":150,
+    "Price":"$$$",
+    "Area":"Capitol Hill",
+    "Category":"['Barbeque', 'Korean']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3341067,47.6225363 ]
+    },
+    "properties": {
+    "Name":"Bar Harbor",
+    "Star":4,
+    "Stars_count":237,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Seafood', 'Cocktail Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3383038,47.6066387 ]
+    },
+    "properties": {
+    "Name":"Von’s 1000 Spirits",
+    "Star":4.5,
+    "Stars_count":1946,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Burgers', 'Pubs']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3425442,47.6269357 ]
+    },
+    "properties": {
+    "Name":"Tanoor",
+    "Star":4.5,
+    "Stars_count":68,
+    "Price":"",
+    "Area":"South Lake Union",
+    "Category":"['Lebanese', 'Mediterranean', 'Halal']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3805678,47.5894296 ]
+    },
+    "properties": {
+    "Name":"Marination Ma Kai",
+    "Star":4,
+    "Stars_count":1102,
+    "Price":"$$",
+    "Area":"",
+    "Category":"['Korean', 'Hawaiian', 'Asian Fusion']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3645639,47.6521302 ]
+    },
+    "properties": {
+    "Name":"Old Stove Brewing",
+    "Star":4.5,
+    "Stars_count":634,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Brewpubs', 'Seafood', 'Burgers']",
+    "Services":"['Waitlist is closed', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3467361,47.6430534 ]
+    },
+    "properties": {
+    "Name":"Canlis",
+    "Star":4,
+    "Stars_count":1524,
+    "Price":"$$$$",
+    "Area":"Westlake",
+    "Category":"['American (New)', 'Seafood']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3337836,47.586467 ]
+    },
+    "properties": {
+    "Name":"Paseo",
+    "Star":4.5,
+    "Stars_count":5216,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Caribbean', 'Cuban', 'Sandwiches']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3350847,47.6018664 ]
+    },
+    "properties": {
+    "Name":"84 Yesler",
+    "Star":5,
+    "Stars_count":43,
+    "Price":"",
+    "Area":"Pioneer Square",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2803944,47.6339546 ]
+    },
+    "properties": {
+    "Name":"Hanok",
+    "Star":4.5,
+    "Stars_count":115,
+    "Price":"$$",
+    "Area":"Madison Park",
+    "Category":"['Korean', 'Asian Fusion']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3240874,47.6128824 ]
+    },
+    "properties": {
+    "Name":"Di Fiora",
+    "Star":4.5,
+    "Stars_count":271,
+    "Price":"",
+    "Area":"First Hill",
+    "Category":"['Asian Fusion', 'Cocktail Bars', 'Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3385311,47.6175425 ]
+    },
+    "properties": {
+    "Name":"The Butcher’s Table",
+    "Star":4,
+    "Stars_count":558,
+    "Price":"$$$$",
+    "Area":"Denny Triangle",
+    "Category":"['Steakhouses', 'Butcher', 'Wine Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3202059,47.6412335 ]
+    },
+    "properties": {
+    "Name":"D’ La Santa",
+    "Star":4.5,
+    "Stars_count":314,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Mexican', 'Steakhouses']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3441909,47.6539761 ]
+    },
+    "properties": {
+    "Name":"Hannyatou",
+    "Star":5,
+    "Stars_count":32,
+    "Price":"",
+    "Area":"Fremont",
+    "Category":"['Japanese']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3466684,47.6144388 ]
+    },
+    "properties": {
+    "Name":"Tavolàta",
+    "Star":4,
+    "Stars_count":1029,
+    "Price":"$$$",
+    "Area":"Belltown",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.336935,47.6217286 ]
+    },
+    "properties": {
+    "Name":"Cactus Restaurants",
+    "Star":4,
+    "Stars_count":816,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Tex-Mex', 'Mexican', 'New Mexican Cuisine']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3915164,47.6303796 ]
+    },
+    "properties": {
+    "Name":"Palisade",
+    "Star":4,
+    "Stars_count":1465,
+    "Price":"$$$",
+    "Area":"Magnolia",
+    "Category":"['Seafood', 'Steakhouses', 'Asian Fusion']",
+    "Services":"['Outdoor dining']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3127557,47.580369 ]
+    },
+    "properties": {
+    "Name":"Musang Seattle",
+    "Star":4.5,
+    "Stars_count":158,
+    "Price":"$$",
+    "Area":"Beacon Hill",
+    "Category":"['Filipino']",
+    "Services":"['Outdoor dining', 'Delivery']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.342096,47.6272954 ]
+    },
+    "properties": {
+    "Name":"Stone Korean Restaurant",
+    "Star":4,
+    "Stars_count":187,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Korean', 'Barbeque', 'Asian Fusion']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3424581,47.6099319 ]
+    },
+    "properties": {
+    "Name":"Piroshky Piroshky",
+    "Star":4.5,
+    "Stars_count":6510,
+    "Price":"$",
+    "Area":"Downtown",
+    "Category":"['Bakeries', 'Russian']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3504629,47.6515391 ]
+    },
+    "properties": {
+    "Name":"19 GOLD",
+    "Star":4.5,
+    "Stars_count":531,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Taiwanese', 'Chinese', 'Bubble Tea']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.307517,47.6270436 ]
+    },
+    "properties": {
+    "Name":"Taurus Ox",
+    "Star":4.5,
+    "Stars_count":164,
+    "Price":"$$",
+    "Area":"Central District",
+    "Category":"['Laotian', 'Asian Fusion', 'Noodles']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3339605,47.6011543 ]
+    },
+    "properties": {
+    "Name":"Dead Line",
+    "Star":4.5,
+    "Stars_count":232,
+    "Price":"$$",
+    "Area":"Pioneer Square",
+    "Category":"['Latin American', 'Cocktail Bars', 'Venues & Event Spaces']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3386645,47.6241961 ]
+    },
+    "properties": {
+    "Name":"Paju",
+    "Star":4.5,
+    "Stars_count":157,
+    "Price":"$$",
+    "Area":"Lower Queen Anne",
+    "Category":"['Korean']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3206369,47.6207375 ]
+    },
+    "properties": {
+    "Name":"Rondo",
+    "Star":4.5,
+    "Stars_count":191,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Sushi Bars', 'Izakaya']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3374111,47.6117016 ]
+    },
+    "properties": {
+    "Name":"Xi’an Noodles",
+    "Star":4.5,
+    "Stars_count":910,
+    "Price":"$$",
+    "Area":"University District",
+    "Category":"['Chinese', 'Hot Pot']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.316094,47.6154236 ]
+    },
+    "properties": {
+    "Name":"Ramen Danbo",
+    "Star":4.5,
+    "Stars_count":1356,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Ramen', 'Noodles']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3242722,47.5982421 ]
+    },
+    "properties": {
+    "Name":"A + Hong Kong Kitchen",
+    "Star":4,
+    "Stars_count":596,
+    "Price":"$$",
+    "Area":"Chinatown",
+    "Category":"['Cantonese', 'Hong Kong Style Cafe']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3478678,47.6151228 ]
+    },
+    "properties": {
+    "Name":"Karaage Setsuna",
+    "Star":4.5,
+    "Stars_count":390,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['Japanese', 'Hawaiian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.382668,47.6669218 ]
+    },
+    "properties": {
+    "Name":"Asadero Ballard",
+    "Star":4.5,
+    "Stars_count":751,
+    "Price":"$$",
+    "Area":"Ballard",
+    "Category":"['Mexican', 'Steakhouses']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2854026,47.5572463 ]
+    },
+    "properties": {
+    "Name":"Marination",
+    "Star":4,
+    "Stars_count":290,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Asian Fusion', 'Korean', 'Seafood']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3339777,47.6203311 ]
+    },
+    "properties": {
+    "Name":"Mala & Satay",
+    "Star":4.5,
+    "Stars_count":77,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Vietnamese']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3400327,47.6132567 ]
+    },
+    "properties": {
+    "Name":"Lola",
+    "Star":4,
+    "Stars_count":3932,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['Greek', 'Mediterranean', 'Breakfast & Brunch']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2926214,47.5897058 ]
+    },
+    "properties": {
+    "Name":"iconiq",
+    "Star":4.5,
+    "Stars_count":110,
+    "Price":"$$$",
+    "Area":"Mount Baker",
+    "Category":"['French', 'Japanese']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3171739,47.6156632 ]
+    },
+    "properties": {
+    "Name":"Soju Anju Bar",
+    "Star":4,
+    "Stars_count":58,
+    "Price":"",
+    "Area":"Capitol Hill",
+    "Category":"['Korean', 'Bars']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3159219,47.6134318 ]
+    },
+    "properties": {
+    "Name":"Citizen",
+    "Star":4,
+    "Stars_count":1029,
+    "Price":"$$",
+    "Area":"Lower Queen Anne",
+    "Category":"['Creperies', 'Coffee & Tea', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3249044,47.5985988 ]
+    },
+    "properties": {
+    "Name":"Mike’s Noodle House",
+    "Star":4,
+    "Stars_count":1186,
+    "Price":"$$",
+    "Area":"Chinatown",
+    "Category":"['Chinese', 'Noodles', 'Soup']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3472959,47.6147974 ]
+    },
+    "properties": {
+    "Name":"Shiro’s",
+    "Star":4.5,
+    "Stars_count":2269,
+    "Price":"$$$$",
+    "Area":"Belltown",
+    "Category":"['Sushi Bars', 'Japanese']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3214782,47.6205379 ]
+    },
+    "properties": {
+    "Name":"Tacos Chukis",
+    "Star":4.5,
+    "Stars_count":453,
+    "Price":"$",
+    "Area":"South Lake Union",
+    "Category":"['Tacos', 'Sandwiches']",
+    "Services":"['Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3873419,47.6757286 ]
+    },
+    "properties": {
+    "Name":"Copine",
+    "Star":4.5,
+    "Stars_count":200,
+    "Price":"$$$",
+    "Area":"Ballard",
+    "Category":"['American (New)', 'French']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3234804,47.6376112 ]
+    },
+    "properties": {
+    "Name":"Violet",
+    "Star":4.5,
+    "Stars_count":98,
+    "Price":"$$$",
+    "Area":"Capitol Hill",
+    "Category":"['American (New)']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3321463,47.6133133 ]
+    },
+    "properties": {
+    "Name":"Dough Zone - Seattle Pine St.",
+    "Star":4,
+    "Stars_count":502,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Shanghainese', 'Dim Sum', 'Noodles']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3501319,47.651241 ]
+    },
+    "properties": {
+    "Name":"Kin Len Thai Night Bites",
+    "Star":4.5,
+    "Stars_count":275,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Thai', 'Cocktail Bars', 'Noodles']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.347834,47.6494266 ]
+    },
+    "properties": {
+    "Name":"Cafe Turko",
+    "Star":4.5,
+    "Stars_count":1082,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Halal', 'Turkish', 'Mediterranean']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.331365,47.5995086 ]
+    },
+    "properties": {
+    "Name":"Cookie’s Country Chicken",
+    "Star":4.5,
+    "Stars_count":69,
+    "Price":"$$",
+    "Area":"SoDo",
+    "Category":"['Chicken Shop', 'Pop-Up Restaurants']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3314322,47.6209994 ]
+    },
+    "properties": {
+    "Name":"Café Hagen",
+    "Star":4,
+    "Stars_count":151,
+    "Price":"",
+    "Area":"South Lake Union",
+    "Category":"['Scandinavian', 'Cafes']",
+    "Services":"['Outdoor dining']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3348513,47.614199 ]
+    },
+    "properties": {
+    "Name":"Bentoful",
+    "Star":4.5,
+    "Stars_count":15,
+    "Price":"",
+    "Area":"South Lake Union",
+    "Category":"['Korean', 'Asian Fusion']",
+    "Services":"['Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3211555,47.6248147 ]
+    },
+    "properties": {
+    "Name":"Altura",
+    "Star":4.5,
+    "Stars_count":580,
+    "Price":"$$$$",
+    "Area":"Capitol Hill",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3544054,47.6234367 ]
+    },
+    "properties": {
+    "Name":"Taylor Shellfish Farms - Seattle",
+    "Star":4,
+    "Stars_count":1114,
+    "Price":"$$$",
+    "Area":"Capitol Hill",
+    "Category":"['Seafood', 'Live/Raw Food']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.325512,47.6393506 ]
+    },
+    "properties": {
+    "Name":"Son of A Butcher",
+    "Star":4,
+    "Stars_count":138,
+    "Price":"$$",
+    "Area":"Eastlake",
+    "Category":"['Korean', 'Barbeque']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3192286,47.6138658 ]
+    },
+    "properties": {
+    "Name":"Quinn’s",
+    "Star":4,
+    "Stars_count":1305,
+    "Price":"$$",
+    "Area":"First Hill",
+    "Category":"['American (New)', 'Pubs']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3380756,47.615083 ]
+    },
+    "properties": {
+    "Name":"Cinque Terre Ristorante",
+    "Star":4,
+    "Stars_count":426,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Italian', 'Seafood', 'Pizza']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.297239,47.6225707 ]
+    },
+    "properties": {
+    "Name":"The Harvest Vine",
+    "Star":4.5,
+    "Stars_count":623,
+    "Price":"$$$",
+    "Area":"Madison Valley",
+    "Category":"['Tapas Bars', 'Spanish', 'Basque']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3275098,47.5978662 ]
+    },
+    "properties": {
+    "Name":"Dough Zone - International District",
+    "Star":4,
+    "Stars_count":1098,
+    "Price":"$$",
+    "Area":"Chinatown",
+    "Category":"['Shanghainese', 'Dim Sum', 'Noodles']",
+    "Services":"['Live wait time: 0 mins', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3207132,47.6224488 ]
+    },
+    "properties": {
+    "Name":"Due’ Cucina Italiana - Capitol Hill",
+    "Star":4.5,
+    "Stars_count":602,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Italian', 'Pasta Shops']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3502149,47.6578304 ]
+    },
+    "properties": {
+    "Name":"Le Coin",
+    "Star":4.5,
+    "Stars_count":258,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Seafood', 'French', 'American (New)']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2890034,47.6134856 ]
+    },
+    "properties": {
+    "Name":"Bottlehouse",
+    "Star":4.5,
+    "Stars_count":350,
+    "Price":"$$",
+    "Area":"Madrona",
+    "Category":"['Wine Bars', 'Tapas/Small Plates']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3316845,47.6290892 ]
+    },
+    "properties": {
+    "Name":"Birch",
+    "Star":4.5,
+    "Stars_count":26,
+    "Price":"",
+    "Area":"South Lake Union",
+    "Category":"['American (New)', 'Seafood']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.317824,47.5998449 ]
+    },
+    "properties": {
+    "Name":"Tamarind Tree",
+    "Star":4,
+    "Stars_count":1438,
+    "Price":"$$",
+    "Area":"Little Saigon",
+    "Category":"['Vietnamese', 'Noodles']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3240809,47.5976268 ]
+    },
+    "properties": {
+    "Name":"Gan Bei",
+    "Star":4,
+    "Stars_count":67,
+    "Price":"",
+    "Area":"Chinatown",
+    "Category":"['Comfort Food', 'Asian Fusion', 'Hong Kong Style Cafe']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2952091,47.6239702 ]
+    },
+    "properties": {
+    "Name":"Cafe Flora",
+    "Star":4,
+    "Stars_count":1290,
+    "Price":"$$",
+    "Area":"Madison Valley",
+    "Category":"['Vegetarian', 'Vegan', 'Gluten-Free']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3165028,47.6070112 ]
+    },
+    "properties": {
+    "Name":"Ba Bar",
+    "Star":3.5,
+    "Stars_count":259,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Vietnamese', 'Cocktail Bars', 'Bakeries']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3405005,47.6098441 ]
+    },
+    "properties": {
+    "Name":"The Hart and The Hunter",
+    "Star":4,
+    "Stars_count":133,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Southern', 'Breakfast & Brunch', 'Cocktail Bars']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3742131,47.6305804 ]
+    },
+    "properties": {
+    "Name":"Addo 206",
+    "Star":4.5,
+    "Stars_count":9,
+    "Price":"",
+    "Area":"Interbay",
+    "Category":"['Puerto Rican', 'American (Traditional)']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3207443,47.6236124 ]
+    },
+    "properties": {
+    "Name":"Herb & Bitter Public House",
+    "Star":4,
+    "Stars_count":341,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Tapas/Small Plates', 'Cocktail Bars', 'Salad']",
+    "Services":"['Outdoor dining', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.320654,47.5990197 ]
+    },
+    "properties": {
+    "Name":"Phnom Penh Noodle House",
+    "Star":4.5,
+    "Stars_count":73,
+    "Price":"",
+    "Area":"Chinatown International District",
+    "Category":"['Noodles', 'Cambodian']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3856953,47.5609297 ]
+    },
+    "properties": {
+    "Name":"Kizuki Ramen & Izakaya",
+    "Star":4,
+    "Stars_count":1352,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Ramen', 'Izakaya']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3165268,47.6148043 ]
+    },
+    "properties": {
+    "Name":"Momiji",
+    "Star":4,
+    "Stars_count":1512,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Japanese', 'Sushi Bars', 'Asian Fusion']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3391713,47.6093266 ]
+    },
+    "properties": {
+    "Name":"Ben Paris",
+    "Star":4,
+    "Stars_count":298,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Cocktail Bars', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3394539,47.6264312 ]
+    },
+    "properties": {
+    "Name":"Art Marble 21",
+    "Star":3.5,
+    "Stars_count":376,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Cocktail Bars', 'American (New)', 'Venues & Event Spaces']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3175829,47.6575638 ]
+    },
+    "properties": {
+    "Name":"Portage Bay Cafe - Roosevelt",
+    "Star":4,
+    "Stars_count":2504,
+    "Price":"$$",
+    "Area":"University District",
+    "Category":"['American (New)', 'Breakfast & Brunch', 'Cafes']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3075106,47.6248499 ]
+    },
+    "properties": {
+    "Name":"Monsoon Seattle",
+    "Star":4,
+    "Stars_count":659,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Vietnamese', 'Asian Fusion', 'Bars']",
+    "Services":"['Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.312523,47.6215351 ]
+    },
+    "properties": {
+    "Name":"Smith",
+    "Star":4,
+    "Stars_count":870,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Bars', 'American (New)', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3460301,47.6144724 ]
+    },
+    "properties": {
+    "Name":"Rocco’s",
+    "Star":4,
+    "Stars_count":1563,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['Bars', 'Pizza']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33925,47.6175001 ]
+    },
+    "properties": {
+    "Name":"Wild Ginger",
+    "Star":4,
+    "Stars_count":111,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Asian Fusion', 'Bars', 'Malaysian']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3280798,47.6143873 ]
+    },
+    "properties": {
+    "Name":"Terra Plata",
+    "Star":4,
+    "Stars_count":982,
+    "Price":"$$$",
+    "Area":"Capitol Hill",
+    "Category":"['American (New)', 'Cocktail Bars', 'Wine Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3443541,47.6540795 ]
+    },
+    "properties": {
+    "Name":"Kamonegi",
+    "Star":4,
+    "Stars_count":293,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['Japanese', 'Noodles']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3873313,47.5626162 ]
+    },
+    "properties": {
+    "Name":"The Alley",
+    "Star":4.5,
+    "Stars_count":95,
+    "Price":"",
+    "Area":"University District",
+    "Category":"['Korean']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.37566,47.671193 ]
+    },
+    "properties": {
+    "Name":"Parish Northwest",
+    "Star":4.5,
+    "Stars_count":64,
+    "Price":"",
+    "Area":"Ballard",
+    "Category":"['Southern', 'Cajun/Creole', 'Pop-Up Restaurants']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4110022,47.5785646 ]
+    },
+    "properties": {
+    "Name":"Il Nido",
+    "Star":4.5,
+    "Stars_count":130,
+    "Price":"",
+    "Area":"Alki",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.365043,47.6244404 ]
+    },
+    "properties": {
+    "Name":"Sisters And Brothers",
+    "Star":4,
+    "Stars_count":615,
+    "Price":"$$",
+    "Area":"Lower Queen Anne",
+    "Category":"['Bars', 'Sandwiches', 'Chicken Shop']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3320757,47.6614963 ]
+    },
+    "properties": {
+    "Name":"Kokkaku",
+    "Star":4,
+    "Stars_count":218,
+    "Price":"$$$",
+    "Area":"Wallingford",
+    "Category":"['American (New)', 'Japanese', 'Steakhouses']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.335356,47.6125443 ]
+    },
+    "properties": {
+    "Name":"Haidilao Hot Pot",
+    "Star":4.5,
+    "Stars_count":169,
+    "Price":"$$$",
+    "Area":"Downtown",
+    "Category":"['Hot Pot', 'Szechuan']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3348787,47.6267122 ]
+    },
+    "properties": {
+    "Name":"Daniel’s Broiler",
+    "Star":3.5,
+    "Stars_count":860,
+    "Price":"$$$$",
+    "Area":"South Lake Union",
+    "Category":"['Steakhouses', 'Seafood']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3136866,47.6582163 ]
+    },
+    "properties": {
+    "Name":"Sizzle&Crunch",
+    "Star":4,
+    "Stars_count":27,
+    "Price":"",
+    "Area":"South Lake Union",
+    "Category":"['Vietnamese']",
+    "Services":"['Delivery']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3327365,47.6103382 ]
+    },
+    "properties": {
+    "Name":"Cortina",
+    "Star":4,
+    "Stars_count":178,
+    "Price":"$$$",
+    "Area":"Downtown",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3564789,47.6148444 ]
+    },
+    "properties": {
+    "Name":"AQUA by El Gaucho",
+    "Star":4,
+    "Stars_count":965,
+    "Price":"$$$$",
+    "Area":"Interbay",
+    "Category":"['Seafood']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3242722,47.5982421 ]
+    },
+    "properties": {
+    "Name":"A+ Hong Kong Restaurant",
+    "Star":4.5,
+    "Stars_count":28,
+    "Price":"",
+    "Area":"Chinatown",
+    "Category":"['Hong Kong Style Cafe', 'Breakfast & Brunch', 'Sandwiches']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3475193,47.6179973 ]
+    },
+    "properties": {
+    "Name":"wa’z",
+    "Star":4.5,
+    "Stars_count":119,
+    "Price":"$$$$",
+    "Area":"Belltown",
+    "Category":"['Japanese']",
+    "Services":"['Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3125981,47.6150507 ]
+    },
+    "properties": {
+    "Name":"Bar Cotto",
+    "Star":4.5,
+    "Stars_count":292,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Bars', 'Pizza', 'Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3207443,47.6241073 ]
+    },
+    "properties": {
+    "Name":"Star Fusion & Bar",
+    "Star":5,
+    "Stars_count":124,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Mongolian', 'Japanese', 'Cocktail Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3371456,47.6147087 ]
+    },
+    "properties": {
+    "Name":"Le Caviste",
+    "Star":4.5,
+    "Stars_count":251,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Wine Bars', 'French']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3410825,47.6059932 ]
+    },
+    "properties": {
+    "Name":"The Crab Pot",
+    "Star":3,
+    "Stars_count":2312,
+    "Price":"$$$",
+    "Area":"Waterfront",
+    "Category":"['Seafood']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.338405,47.6073513 ]
+    },
+    "properties": {
+    "Name":"mkt.",
+    "Star":4.5,
+    "Stars_count":324,
+    "Price":"$$$",
+    "Area":"Wallingford",
+    "Category":"['American (New)']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.336932,47.685773 ]
+    },
+    "properties": {
+    "Name":"Noi Thai Cuisine",
+    "Star":4,
+    "Stars_count":868,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Thai']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2996968,47.6625625 ]
+    },
+    "properties": {
+    "Name":"Ma’ono Fried Chicken",
+    "Star":4.5,
+    "Stars_count":23,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Chicken Shop', 'Sandwiches']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3497037,47.6154608 ]
+    },
+    "properties": {
+    "Name":"Black Bottle",
+    "Star":4,
+    "Stars_count":1112,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['American (New)', 'Gastropubs', 'Tapas/Small Plates']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3363529,47.661278 ]
+    },
+    "properties": {
+    "Name":"Dumpling The Noodle",
+    "Star":4.5,
+    "Stars_count":181,
+    "Price":"$$",
+    "Area":"Wallingford",
+    "Category":"['Noodles', 'Chinese']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3567358,47.6387102 ]
+    },
+    "properties": {
+    "Name":"How to Cook a Wolf",
+    "Star":4,
+    "Stars_count":38,
+    "Price":"",
+    "Area":"Madison Park",
+    "Category":"['Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3323964,47.6135477 ]
+    },
+    "properties": {
+    "Name":"The Carlile Room",
+    "Star":4,
+    "Stars_count":472,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Bars', 'Burgers']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3538952,47.6519456 ]
+    },
+    "properties": {
+    "Name":"Local Tide",
+    "Star":4.5,
+    "Stars_count":82,
+    "Price":"",
+    "Area":"Fremont",
+    "Category":"['Seafood', 'Sandwiches', 'Salad']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3284271,47.6148772 ]
+    },
+    "properties": {
+    "Name":"Qin Xi’an Noodles",
+    "Star":4,
+    "Stars_count":344,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Chinese', 'Noodles']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3465048,47.6143274 ]
+    },
+    "properties": {
+    "Name":"Bangrak Market",
+    "Star":4,
+    "Stars_count":597,
+    "Price":"$$",
+    "Area":"Belltown",
+    "Category":"['Bars', 'Thai', 'Tapas/Small Plates']",
+    "Services":"['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3339861,47.6206906 ]
+    },
+    "properties": {
+    "Name":"El Grito Taqueria",
+    "Star":4,
+    "Stars_count":206,
+    "Price":"$$",
+    "Area":"South Lake Union",
+    "Category":"['Mexican']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3153827,47.5994794 ]
+    },
+    "properties": {
+    "Name":"Pho Bac Súp Shop",
+    "Star":4,
+    "Stars_count":769,
+    "Price":"$$",
+    "Area":"Little Saigon",
+    "Category":"['Vietnamese', 'Noodles']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3382256,47.6121922 ]
+    },
+    "properties": {
+    "Name":"Oliver’s Lounge",
+    "Star":4,
+    "Stars_count":166,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['Lounges', 'Cocktail Bars', 'American (Traditional)']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3330473,47.6161711 ]
+    },
+    "properties": {
+    "Name":"Nana’s Green Tea",
+    "Star":4,
+    "Stars_count":922,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Japanese', 'Desserts', 'Cafes']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29925,47.5991362 ]
+    },
+    "properties": {
+    "Name":"Wood Shop BBQ",
+    "Star":4.5,
+    "Stars_count":542,
+    "Price":"$$",
+    "Area":"Atlantic",
+    "Category":"['Barbeque', 'Sandwiches', 'Beer, Wine & Spirits']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.289146,47.6127084 ]
+    },
+    "properties": {
+    "Name":"Mr. West Cafe Bar",
+    "Star":4,
+    "Stars_count":595,
+    "Price":"$$",
+    "Area":"Denny Triangle",
+    "Category":"['Bars', 'Cafes', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3253103,47.6154268 ]
+    },
+    "properties": {
+    "Name":"Tamari Bar",
+    "Star":4,
+    "Stars_count":392,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Izakaya']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3527605,47.6523273 ]
+    },
+    "properties": {
+    "Name":"The Backdoor",
+    "Star":4,
+    "Stars_count":280,
+    "Price":"$$",
+    "Area":"Fremont",
+    "Category":"['American (New)', 'Speakeasies', 'Cocktail Bars']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.316731,47.6179302 ]
+    },
+    "properties": {
+    "Name":"Morfire",
+    "Star":4.5,
+    "Stars_count":215,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['Thai', 'Hot Pot', 'Bars']",
+    "Services":"['Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3567302,47.6385016 ]
+    },
+    "properties": {
+    "Name":"Grappa",
+    "Star":4,
+    "Stars_count":277,
+    "Price":"$$",
+    "Area":"Queen Anne",
+    "Category":"['Mediterranean', 'Lounges', 'Wine Bars']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3572116,47.6326914 ]
+    },
+    "properties": {
+    "Name":"Betty",
+    "Star":4,
+    "Stars_count":373,
+    "Price":"$$",
+    "Area":"Queen Anne",
+    "Category":"['American (New)', 'Specialty Food', 'Cocktail Bars']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.323192,47.6905365 ]
+    },
+    "properties": {
+    "Name":"Kona Kitchen - Seattle",
+    "Star":4,
+    "Stars_count":1033,
+    "Price":"$$",
+    "Area":"Mapleleaf",
+    "Category":"['Hawaiian', 'Breakfast & Brunch', 'Lounges']",
+    "Services":"['Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3415286,47.6097117 ]
+    },
+    "properties": {
+    "Name":"Café Campagne",
+    "Star":4,
+    "Stars_count":1153,
+    "Price":"$$",
+    "Area":"Downtown",
+    "Category":"['French', 'Breakfast & Brunch', 'Cafes']",
+    "Services":"['Proof of vaccination required', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3267763,47.6244359 ]
+    },
+    "properties": {
+    "Name":"Harry’s Fine Foods",
+    "Star":4,
+    "Stars_count":178,
+    "Price":"$$",
+    "Area":"Capitol Hill",
+    "Category":"['American (New)']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.385856,47.6685144 ]
+    },
+    "properties": {
+    "Name":"The Ballard Cut",
+    "Star":4.5,
+    "Stars_count":106,
+    "Price":"$$$",
+    "Area":"Ballard",
+    "Category":"['American (New)', 'Wine Bars', 'Whiskey Bars']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3826487,47.6695656 ]
+    },
+    "properties": {
+    "Name":"Spice Waala",
+    "Star":4.5,
+    "Stars_count":205,
+    "Price":"$",
+    "Area":"Capitol Hill",
+    "Category":"['Indian', 'Street Vendors']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3541759,47.672328 ]
+    },
+    "properties": {
+    "Name":"Windy City Pie",
+    "Star":4.5,
+    "Stars_count":514,
+    "Price":"$$",
+    "Area":"Phinney Ridge",
+    "Category":"['Pizza', 'Bars', 'Italian']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3447373,47.6106495 ]
+    },
+    "properties": {
+    "Name":"Aerlume",
+    "Star":4,
+    "Stars_count":158,
+    "Price":"",
+    "Area":"Downtown",
+    "Category":"['American (New)', 'Desserts', 'Salad']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3154424,47.5973809 ]
+    },
+    "properties": {
+    "Name":"Hello Em Viet Coffee & Roastery",
+    "Star":4.5,
+    "Stars_count":128,
+    "Price":"$",
+    "Area":"Chinatown International District",
+    "Category":"['Coffee Roasteries', 'Vietnamese', 'Breakfast & Brunch']",
+    "Services":"[]",
+    "Searched City":"Seattle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.356528,47.638259 ]
+    },
+    "properties": {
+    "Name":"Bounty Kitchen",
+    "Star":4.5,
+    "Stars_count":370,
+    "Price":"$$",
+    "Area":"Queen Anne",
+    "Category":"['Salad', 'Sandwiches', 'Breakfast & Brunch']",
+    "Services":"['Outdoor dining', 'Delivery', 'Takeout']",
+    "Searched City":"Seattle"
+    }
+  }
+]
+}

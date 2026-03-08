@@ -1,4 +1,4 @@
-// (newly added on Mar2 -- Pailsey commented) 
+// (newly added on Mar2 -- Pailsey commented)
 // the chunk below are randomizing a restaurant on the first page of the website
 // so like everytime the user click into our website, it will generize one restaurant!
 async function setRandomHeroBackground() {
@@ -34,7 +34,7 @@ async function setRandomHeroBackground() {
 // (newly added on Mar2 -- Pailsey commented) it's the map little map in the bottom right on the home page
 // (for some reason we have to have a little map on our front page if we are doing the random background)
 // because I dont think we can use the API to fetch photos
-// so instead of that, I uploaded one json file to the '/assets' ! 
+// so instead of that, I uploaded one json file to the '/assets' !
 // if we still want the random photo function! I think we cannot delete this chunk > <!
 // but it's very okay if we change the style of it!
 function initMap() {
@@ -43,27 +43,46 @@ function initMap() {
 
   mapboxgl.accessToken = "pk.eyJ1IjoicGFpc2xleXc4MjkiLCJhIjoiY21oZTY4Z3h6MGFpbzJsb2UzbWkxZjZybyJ9.qvAAm5rLQZPLPn8ltX2vLg";
 
-  new mapboxgl.Map({
+  const map = new mapboxgl.Map({
     container: "map",
     style: "mapbox://styles/mapbox/streets-v11",
     center: [-122.3321, 47.6062],
     zoom: 12
   });
-}
 
+  map.on('load', () => {
+    map.addSource('restaurants', {
+        type: 'geojson',
+        data: 'assets/sea_restaurants.geojson'
+    });
+
+    map.addLayer({
+        id: 'restaurant-points',
+        type: 'circle',
+        source: 'restaurants',
+        paint: {
+            'circle-radius': 6,
+            'circle-color': '#e63946',
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#ffffff'
+        }
+    });
+
+});
+}
 
 // initial declarations
 
-// contact
+// contact page
 function plusSlide(num) {
   currentSlide += num;
-  
+
   if (currentSlide > totalSlides) {
   currentSlide = 1;
   } else if (currentSlide < 1) {
   currentSlide = totalSlides;
   }
-  
+
   showSlide(currentSlide);
 }
 
@@ -74,15 +93,15 @@ function goToSlide(slideNumber) {
 function showSlide(slideNumber) {
   const slides = document.getElementsByClassName('slide');
   const dots = document.getElementsByClassName('dot');
-  
+
   for (let i = 0; i < slides.length; i++) {
   slides[i].classList.remove('active');
   }
-  
+
   for (let i = 0; i < dots.length; i++) {
   dots[i].classList.remove('active');
   }
-  
+
   slides[slideNumber - 1].classList.add('active');
   dots[slideNumber - 1].classList.add('active');
   document.getElementById('current-slide').textContent = slideNumber;
