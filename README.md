@@ -9,7 +9,7 @@ Project URL: kridang.github.io/seattle-food-dashboard
 ## Project Description
 
 ## Goals
-Project goal (such as, what is the message you want to deliver through your project?)
+The Seattle Food Dashboard is a smart dashboard designed towards (mostly) UW students to help find restaurants around UW campus for good places with the ability to filter our certain criteria based on restaurant data.
 
 ## Functions
 One or two screenshots to illustrate the project's functions.
@@ -19,10 +19,9 @@ One or two screenshots to illustrate the project's functions.
 Applied libraries (e.g., Mapbox, D3, C3) and Web Services in use (e.g., github, basemap).
 
 ## Data Sources
-- Yelp Business API
+- [Kaggle - Seattle Area Restaurants (data collcted from YELP)](https://www.kaggle.com/datasets/oklena/seattle-area-restaurants)
 
 ## Other Notes
-Other things that are necessary to inform the audience.
 
 ## Acknowledgment
 <!-- add ai acknowledgements -->

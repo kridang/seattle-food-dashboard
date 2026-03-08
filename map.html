@@ -1,4 +1,3 @@
-basically just make our map page here
 <!DOCTYPE html>
 <html>
 
@@ -7,18 +6,59 @@ basically just make our map page here
   <title>Seattle Food Dashboard</title>
   <link rel="icon" type="image/x-icon" href="assets/sfdfavi.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="" rel="stylesheet"> add google font link later-->
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!--  and links to about and contact -->
-  <div id="map"></div>
-  <!-- div for charts and tables? -->
+  <header>
+    <div class="logo">
+      <img src="assets/sfdfavi.png" class="logo-img" alt="Seattle Food Logo">
+      <a>Seattle Food Dashboard</a>
+    </div>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="map.html" id="cta">View Map</a>
+    </nav>
+  </header>
 
 
-  <!-- <script src="js/main.js"></script> -->
+  <div class="map-container">
+
+    <!-- TODO: someone mentioned the layout for our map dashboard/view being an L-shape, though I think just a column could work the same way too. Up to yall -jeff 3/7 -->
+    <!-- left-side info panel -->
+    <div class="left-section">
+      <div class="info-card card-details">
+        <h3>Information</h3>
+        <p>Closes 8 PM</p>
+        <p>123 Elmo Street, Seattle, WA 12345</p>
+        <p><a href="">website.com</a></p>
+        <p>xxx-xxx-xxxx</p>
+      </div>
+
+      <div class="info-card description-card">
+        <h3>The Bread Bakery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <!-- map panel -->
+    <div class="right-section">
+      <div class="map-wrapper">
+        <div id="map"></div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
