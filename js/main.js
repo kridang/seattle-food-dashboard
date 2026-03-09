@@ -20,6 +20,7 @@ async function setRandomHeroBackground() {
     const pick = withImages[Math.floor(Math.random() * withImages.length)];
 
     hero.style.backgroundImage = `url("${pick.image_url}")`;
+
 // the "feature" button will direct the user to the Yelp page!
     if (featured) {
       featured.innerHTML =
@@ -68,7 +69,43 @@ function initMap() {
         }
     });
 
-});
+    // when user clicks a restaurant dot, show that restaurant's info in the left panel
+    map.on('click', 'restaurant-points', (e) => {
+      const feature = e.features[0];
+      const props = feature.properties;
+
+      const infoCard = document.querySelector('.card-details');
+      const descriptionCard = document.querySelector('.description-card');
+
+      if (infoCard) {
+        infoCard.innerHTML = `
+          <h3>Information</h3>
+          <p>⭐ ${props.Star} (${props.Stars_count} reviews)</p>
+          <p>Price: ${props.Price}</p>
+          <p>Area: ${props.Area}</p>
+          <p>${props["Searched City"]}</p>
+        `;
+      }
+
+      if (descriptionCard) {
+        descriptionCard.innerHTML = `
+          <h3>${props.Name}</h3>
+          <p><strong>Category:</strong> ${props.Category}</p>
+          <p><strong>Services:</strong> ${props.Services}</p>
+        `;
+      }
+    });
+
+    // change mouse cursor when hovering restaurant points
+    map.on('mouseenter', 'restaurant-points', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'restaurant-points', () => {
+      map.getCanvas().style.cursor = '';
+    });
+
+  });
 }
 
 // initial declarations
