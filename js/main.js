@@ -269,12 +269,6 @@ function initMap() {
         showDashboardView();
       }
 
-      // when user clicks a restaurant dot, show restaurant detail instead of charts
-      map.on('click', 'restaurant-points', (e) => {
-        const feature = e.features[0];
-        const props = feature.properties;
-        showRestaurantDetail(props);
-      });
 
       // cursor pointer
       map.on('mouseenter', 'restaurant-points', () => {
@@ -294,7 +288,7 @@ function initMap() {
     map.on('click', 'restaurant-points', (e) => {
       const feature = e.features[0];
       const props = feature.properties;
-
+      showRestaurantDetail(props);
       const infoCard = document.querySelector('.card-details');
       const descriptionCard = document.querySelector('.description-card');
 
