@@ -6,6 +6,7 @@ let priceChart;
 
 let selectedPrices = [];
 let selectedRatings = [];
+let selectedCategories = [];
 let allGeojsonFeatures = [];
 // states for filter
 
@@ -82,15 +83,31 @@ function buildPriceCounts(features) {
   };
 }
 
-function applyPriceFilter() {
+function applyAllFilters() {
   if (!allGeojsonFeatures.length) return;
 
-  const filteredFeatures = selectedPrices.length === 0 
-    ? allGeojsonFeatures 
-    : allGeojsonFeatures.filter(feature => {
-        const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
-        return selectedPrices.includes(price);
-      });
+  let filteredFeatures = allGeojsonFeatures;
+
+  if (selectedPrices.length > 0) {
+    filteredFeatures = filteredFeatures.filter(feature => {
+      const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
+      return selectedPrices.includes(price);
+    });
+  }
+
+  if (selectedRatings.length > 0) {
+    filteredFeatures = filteredFeatures.filter(feature => {
+      const rating = Math.ceil(feature.properties.Star || 0);
+      return selectedRatings.includes(rating);
+    });
+  }
+
+  if (selectedCategories.length > 0) {
+    filteredFeatures = filteredFeatures.filter(feature => {
+      const categories = parseCategoryString(feature.properties.Category);
+      return categories.some(cat => selectedCategories.includes(cat));
+    });
+  }
 
   const mapElement = document.getElementById('map');
   if (mapElement && mapElement.__mapInstance) {
@@ -104,32 +121,37 @@ function applyPriceFilter() {
     }
   }
   renderCharts(filteredFeatures);
+}
+
+function applyPriceFilter() {
+  applyAllFilters();
 }
 
 function applyRatingFilter() {
-  if (!allGeojsonFeatures.length) return;
-
-  const filteredFeatures = selectedRatings.length === 0 
-    ? allGeojsonFeatures 
-    : allGeojsonFeatures.filter(feature => {
-        const rating = Math.ceil(feature.properties.Star || 0);
-        return selectedRatings.includes(rating);
-      });
-
-  const mapElement = document.getElementById('map');
-  if (mapElement && mapElement.__mapInstance) {
-    const source = mapElement.__mapInstance.getSource('restaurants');
-    if (source) {
-      const filteredGeojson = {
-        type: "FeatureCollection",
-        features: filteredFeatures
-      };
-      source.setData(filteredGeojson);
-    }
-  }
-  renderCharts(filteredFeatures);
+  applyAllFilters();
 }
-
+function populateCategoryFilter(features) {
+  const categoryData = buildCategoryCounts(features);
+  const filterOptionsContainer = document.getElementById('categoryFilterOptions');
+  
+  if (!filterOptionsContainer) return;
+  
+  filterOptionsContainer.innerHTML = '';
+  
+  categoryData.labels.forEach(category => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.textContent = category;
+    btn.dataset.category = category;
+    filterOptionsContainer.appendChild(btn);
+  });
+  
+  const clearBtn = document.createElement('button');
+  clearBtn.className = 'filter-btn clear-filter';
+  clearBtn.textContent = '↻';
+  clearBtn.title = 'Clear filters';
+  filterOptionsContainer.appendChild(clearBtn);
+}
 function initPriceFilterListeners() {
   const toggleBtn = document.getElementById('priceFilterToggle');
   const filterContainer = document.getElementById('priceFilterContainer');
@@ -206,6 +228,45 @@ function initRatingFilterListeners() {
         btn.classList.remove('active');
       });
       applyRatingFilter();
+    });
+  }
+}
+
+function initCategoryFilterListeners() {
+  const toggleBtn = document.getElementById('categoryFilterToggle');
+  const filterContainer = document.getElementById('categoryFilterContainer');
+  
+  if (toggleBtn && filterContainer) {
+    toggleBtn.addEventListener('click', () => {
+      filterContainer.classList.toggle('expanded');
+      filterContainer.classList.toggle('collapsed');
+    });
+  }
+
+  document.querySelectorAll('#categoryFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const category = e.target.dataset.category;
+      
+      if (selectedCategories.includes(category)) {
+        selectedCategories = selectedCategories.filter(c => c !== category);
+        e.target.classList.remove('active');
+      } else {
+        selectedCategories.push(category);
+        e.target.classList.add('active');
+      }
+      
+      applyAllFilters();
+    });
+  });
+
+  const clearBtn = document.querySelector('#categoryFilterContainer .filter-btn.clear-filter');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      selectedCategories = [];
+      document.querySelectorAll('#categoryFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      applyAllFilters();
     });
   }
 }
@@ -371,8 +432,10 @@ function initMap() {
         }
       });
 
+      populateCategoryFilter(geojsonData.features);
       initPriceFilterListeners();
       initRatingFilterListeners();
+      initCategoryFilterListeners();
 
       // dynamic charts depending on map bounds
       renderCharts(geojsonData.features);
@@ -386,12 +449,28 @@ function initMap() {
         if (!allGeojsonFeatures.length) return;
         const bounds = map.getBounds();
 
-        const filteredFeatures = selectedPrices.length === 0
-          ? allGeojsonFeatures
-          : allGeojsonFeatures.filter(feature => {
-              const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
-              return selectedPrices.includes(price);
-            });
+        let filteredFeatures = allGeojsonFeatures;
+
+        if (selectedPrices.length > 0) {
+          filteredFeatures = filteredFeatures.filter(feature => {
+            const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
+            return selectedPrices.includes(price);
+          });
+        }
+
+        if (selectedRatings.length > 0) {
+          filteredFeatures = filteredFeatures.filter(feature => {
+            const rating = Math.ceil(feature.properties.Star || 0);
+            return selectedRatings.includes(rating);
+          });
+        }
+
+        if (selectedCategories.length > 0) {
+          filteredFeatures = filteredFeatures.filter(feature => {
+            const categories = parseCategoryString(feature.properties.Category);
+            return categories.some(cat => selectedCategories.includes(cat));
+          });
+        }
 
         const featuresInView = getRestaurantsInBounds(filteredFeatures, bounds);
         renderCharts(featuresInView);

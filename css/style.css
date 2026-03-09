@@ -351,6 +351,19 @@ header #cta:hover {
   left: 100px;
 }
 
+#categoryFilterContainer {
+  top: 15px;
+  left: 205px;
+}
+
+#ratingFilterContainer .filter-toggle {
+  margin: 0 6px 0;
+}
+
+#categoryFilterContainer .filter-toggle {
+  margin: 0 28px 0;
+}
+
 
 /* RESPONSIVE css  */
 @media (max-width: 768px) {
