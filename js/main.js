@@ -27,7 +27,7 @@ function buildCategoryCounts(features) {
 
   const sorted = Object.entries(counts)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 8); // top 8 categories only
+    .slice(0, 12); // top 12 categories only
 
   return {
     labels: sorted.map(item => item[0]),
@@ -79,22 +79,43 @@ function renderCharts(features) {
   if (categoryChart) categoryChart.destroy();
   if (priceChart) priceChart.destroy();
 
-  categoryChart = new Chart(categoryCanvas, {
-    type: "pie",
-    data: {
-      labels: categoryData.labels,
-      datasets: [{
-        data: categoryData.values
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: {
-          position: "bottom"
-        }
+const pieColors = [
+  "#4E79A7",
+  "#F28E2B",
+  "#E15759",
+  "#76B7B2",
+  "#59A14F",
+  "#EDC948",
+  "#B07AA1",
+  "#FF9DA7",
+  "#9C755F",
+  "#BAB0AC",
+  "#86BCB6",
+  "#F1CE63",
+  "#D37295",
+  "#8CD17D",
+  "#499894"
+];
+
+categoryChart = new Chart(categoryCanvas, {
+  type: "pie",
+  data: {
+    labels: categoryData.labels,
+    datasets: [{
+      data: categoryData.values,
+      backgroundColor: pieColors.slice(0, categoryData.labels.length),
+      borderColor: "#ffffff",
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "bottom"
       }
     }
+  }
   });
 
   priceChart = new Chart(priceCanvas, {
