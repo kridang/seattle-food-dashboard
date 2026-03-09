@@ -196,6 +196,11 @@ function initMap() {
     zoom: 12
   });
 
+  const hoverPopup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+  });
+
   //edited on Mar8, Allen commented
   // load the geojson data for the statistics and charts and add to the map as a layer
   map.on('load', async () => {
@@ -272,6 +277,28 @@ function initMap() {
       }
     });
 
+    // hover popup for rating and name
+    map.on('mousemove', 'restaurant-points', (e) => {
+      const feature = e.features[0];
+      const coords = feature.geometry.coordinates.slice();
+
+      // stars : https://emojicombos.com/star
+      const rating = Math.round(feature.properties.Star || 0);
+      const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
+
+      hoverPopup
+        .setLngLat(coords)
+        .setHTML(`
+          <h4>${feature.properties.Name}</h4>
+          <p>${stars}</p>
+          <p>${feature.properties.Stars_count} reviews</p>
+        `)
+        .addTo(map);
+    });
+
+    map.on('mouseleave', 'restaurant-points', () => {
+      hoverPopup.remove();
+    });
 }
 
 
