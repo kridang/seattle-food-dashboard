@@ -9,7 +9,7 @@ Project URL: kridang.github.io/seattle-food-dashboard
 ## Project Description
 
 ## Goals
-The Seattle Food Dashboard is an smart dashboard designed to help university students explore restaurants in Seattle and identify places that match their preferences. The dashboard allows users to quickly discover popular dining options and compare restaurant attributes through interactive visualizations.
+The Seattle Food Dashboard is an smart dashboard designed to help Seattle residents explore restaurants in Seattle and identify places that match their preferences. The dashboard allows users to quickly discover popular dining options and compare restaurant attributes through interactive visualizations.
 
 ## Functions
 One or two screenshots to illustrate the project's functions.
