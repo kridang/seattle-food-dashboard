@@ -346,6 +346,11 @@ header #cta:hover {
   left: 15px;
 }
 
+#ratingFilterContainer {
+  top: 15px;
+  left: 100px;
+}
+
 
 /* RESPONSIVE css  */
 @media (max-width: 768px) {

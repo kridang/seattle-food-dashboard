@@ -5,6 +5,7 @@ let priceChart;
 // two visualization charts when no selection on the map (default view)
 
 let selectedPrices = [];
+let selectedRatings = [];
 let allGeojsonFeatures = [];
 // states for filter
 
@@ -105,6 +106,30 @@ function applyPriceFilter() {
   renderCharts(filteredFeatures);
 }
 
+function applyRatingFilter() {
+  if (!allGeojsonFeatures.length) return;
+
+  const filteredFeatures = selectedRatings.length === 0 
+    ? allGeojsonFeatures 
+    : allGeojsonFeatures.filter(feature => {
+        const rating = Math.ceil(feature.properties.Star || 0);
+        return selectedRatings.includes(rating);
+      });
+
+  const mapElement = document.getElementById('map');
+  if (mapElement && mapElement.__mapInstance) {
+    const source = mapElement.__mapInstance.getSource('restaurants');
+    if (source) {
+      const filteredGeojson = {
+        type: "FeatureCollection",
+        features: filteredFeatures
+      };
+      source.setData(filteredGeojson);
+    }
+  }
+  renderCharts(filteredFeatures);
+}
+
 function initPriceFilterListeners() {
   const toggleBtn = document.getElementById('priceFilterToggle');
   const filterContainer = document.getElementById('priceFilterContainer');
@@ -141,6 +166,46 @@ function initPriceFilterListeners() {
         btn.classList.remove('active');
       });
       applyPriceFilter();
+    });
+  }
+}
+
+function initRatingFilterListeners() {
+  const toggleBtn = document.getElementById('ratingFilterToggle');
+  const filterContainer = document.getElementById('ratingFilterContainer');
+  
+  if (toggleBtn && filterContainer) {
+    toggleBtn.addEventListener('click', () => {
+      filterContainer.classList.toggle('expanded');
+      filterContainer.classList.toggle('collapsed');
+    });
+  }
+
+  document.querySelectorAll('#ratingFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const rating = parseInt(e.target.dataset.rating);
+      
+      if (selectedRatings.includes(rating)) {
+        selectedRatings = selectedRatings.filter(r => r !== rating);
+        e.target.classList.remove('active');
+      } else {
+        selectedRatings.push(rating);
+        e.target.classList.add('active');
+      }
+      
+      applyRatingFilter();
+    });
+  });
+
+  // For clear filter button
+  const clearBtn = document.querySelector('#ratingFilterContainer .filter-btn.clear-filter');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      selectedRatings = [];
+      document.querySelectorAll('#ratingFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      applyRatingFilter();
     });
   }
 }
@@ -307,6 +372,7 @@ function initMap() {
       });
 
       initPriceFilterListeners();
+      initRatingFilterListeners();
 
       // dynamic charts depending on map bounds
       renderCharts(geojsonData.features);
