@@ -1,8 +1,8 @@
-// added on 3/8, Allen commented
-// Two visualization charts when no selection on the map (default view)
+// initial declarations
 
 let categoryChart;
 let priceChart;
+// two visualization charts when no selection on the map (default view)
 
 function parseCategoryString(categoryStr) {
   if (!categoryStr) return [];
@@ -79,43 +79,43 @@ function renderCharts(features) {
   if (categoryChart) categoryChart.destroy();
   if (priceChart) priceChart.destroy();
 
-const pieColors = [ // color palette for pie chart (up to 12 colors)
-  "#4E79A7",
-  "#F28E2B",
-  "#E15759",
-  "#76B7B2",
-  "#59A14F",
-  "#EDC948",
-  "#B07AA1",
-  "#FF9DA7",
-  "#9C755F",
-  "#BAB0AC",
-  "#86BCB6",
-  "#F1CE63",
-  "#D37295",
-  "#8CD17D",
-  "#499894"
-];
+  const pieColors = [ // color palette for pie chart (up to 12 colors)
+    "#4E79A7",
+    "#F28E2B",
+    "#E15759",
+    "#76B7B2",
+    "#59A14F",
+    "#EDC948",
+    "#B07AA1",
+    "#FF9DA7",
+    "#9C755F",
+    "#BAB0AC",
+    "#86BCB6",
+    "#F1CE63",
+    "#D37295",
+    "#8CD17D",
+    "#499894"
+  ];
 
-categoryChart = new Chart(categoryCanvas, {
-  type: "pie",
-  data: {
-    labels: categoryData.labels,
-    datasets: [{
-      data: categoryData.values,
-      backgroundColor: pieColors.slice(0, categoryData.labels.length),
-      borderColor: "#ffffff",
-      borderWidth: 2
-    }]
-  },
-  options: {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: "bottom"
+  categoryChart = new Chart(categoryCanvas, {
+    type: "pie",
+    data: {
+      labels: categoryData.labels,
+      datasets: [{
+        data: categoryData.values,
+        backgroundColor: pieColors.slice(0, categoryData.labels.length),
+        borderColor: "#ffffff",
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: "bottom"
+        }
       }
     }
-  }
   });
 
   priceChart = new Chart(priceCanvas, {
@@ -141,11 +141,9 @@ categoryChart = new Chart(categoryCanvas, {
   });
 }
 
-
-
-// (newly added on Mar2 -- Pailsey commented)
-// the chunk below are randomizing a restaurant on the first page of the website
-// so like everytime the user click into our website, it will generize one restaurant!
+// randomizing a restaurant in BG on the first page of the website
+// (for some reason we have to have a little map on our front page if we are doing the random background)
+// little map on front page NOW used as tutorial / onboarding?
 async function setRandomHeroBackground() {
   const hero = document.querySelector(".hero");
   const featured = document.getElementById("featuredRestaurant");
@@ -166,34 +164,30 @@ async function setRandomHeroBackground() {
 
     hero.style.backgroundImage = `url("${pick.image_url}")`;
 
-// the "feature" button will direct the user to the Yelp page!
+    // the "feature" button will direct the user to the Yelp page!
     if (featured) {
       featured.innerHTML =
         `Featured: <a href="${pick.url}" target="_blank">${pick.name} [see on Yelp page]</a>`;
     }
-
   } catch (err) {
     console.error(err);
   }
 }
 
-// (newly added on Mar2 -- Pailsey commented) it's the map little map in the bottom right on the home page
-// (for some reason we have to have a little map on our front page if we are doing the random background)
-// because I dont think we can use the API to fetch photos
-// so instead of that, I uploaded one json file to the '/assets' !
-// if we still want the random photo function! I think we cannot delete this chunk > <!
-// but it's very okay if we change the style of it!
 function initMap() {
+  mapboxgl.accessToken = "pk.eyJ1IjoicGFpc2xleXc4MjkiLCJhIjoiY21oZTY4Z3h6MGFpbzJsb2UzbWkxZjZybyJ9.qvAAm5rLQZPLPn8ltX2vLg";
+
+  // init map, hover popup
+  let geojsonData;
   const mapElement = document.getElementById("map");
   if (!mapElement) return;
-
-  mapboxgl.accessToken = "pk.eyJ1IjoicGFpc2xleXc4MjkiLCJhIjoiY21oZTY4Z3h6MGFpbzJsb2UzbWkxZjZybyJ9.qvAAm5rLQZPLPn8ltX2vLg";
 
   const map = new mapboxgl.Map({
     container: "map",
     style: "mapbox://styles/mapbox/streets-v11",
     center: [-122.3321, 47.6062],
-    zoom: 12
+    zoom: 12,
+    minZoom: 10
   });
 
   const hoverPopup = new mapboxgl.Popup({
@@ -201,21 +195,6 @@ function initMap() {
     closeOnClick: false
   });
 
-  let geojsonData;
-
-  function getRestaurantsInBounds(features, bounds) {
-    return features.filter(f => bounds.contains(f.geometry.coordinates));
-  }
-
-  function updateChartsInView() {
-    if (!geojsonData || !geojsonData.features) return;
-
-    const bounds = map.getBounds();
-    const featuresInView = getRestaurantsInBounds(geojsonData.features, bounds);
-    renderCharts(featuresInView);
-  }
-
-  //edited on Mar8, Allen commented
   // load the geojson data for the statistics and charts and add to the map as a layer
   map.on('load', async () => {
     try {
@@ -234,16 +213,28 @@ function initMap() {
         type: 'circle',
         source: 'restaurants',
         paint: {
-          'circle-radius': 6,
-          'circle-color': '#e63946',
+          'circle-radius': 5,
+          'circle-color': '#9633d8',
           'circle-stroke-width': 1,
-          'circle-stroke-color': '#ffffff'
+          'circle-stroke-color': '#000000'
         }
       });
 
+      // dynamic charts depending on map bounds
       renderCharts(geojsonData.features);
       map.on("moveend", updateChartsInView);
-      // dynamic charts depending on map bounds - kri, lmk if u guys wanna keep this!
+
+      function getRestaurantsInBounds(features, bounds) {
+        return features.filter(f => bounds.contains(f.geometry.coordinates));
+      }
+
+      function updateChartsInView() {
+        if (!geojsonData || !geojsonData.features) return;
+
+        const bounds = map.getBounds();
+        const featuresInView = getRestaurantsInBounds(geojsonData.features, bounds);
+        renderCharts(featuresInView);
+      }
 
       // cursor pointer
       map.on('mouseenter', 'restaurant-points', () => {
@@ -289,7 +280,7 @@ function initMap() {
     }
   });
 
-  // hover popup with stars and rest name - kri
+  // hover popup with stars and rest. name
   map.on('mousemove', 'restaurant-points', (e) => {
     const feature = e.features[0];
     const coords = feature.geometry.coordinates.slice();
@@ -302,8 +293,7 @@ function initMap() {
       .setHTML(`
         <h4>${feature.properties.Name}</h4>
         <p>${stars}</p>
-        <p>${feature.properties.Stars_count} reviews</p>
-      `)
+        <p>${feature.properties.Stars_count} reviews</p>`)
       .addTo(map);
 
     map.getCanvas().style.cursor = 'pointer';
@@ -314,16 +304,14 @@ function initMap() {
   });
 }
 
-// initial declarations
-
 // contact page
 function plusSlide(num) {
   currentSlide += num;
 
   if (currentSlide > totalSlides) {
-  currentSlide = 1;
+    currentSlide = 1;
   } else if (currentSlide < 1) {
-  currentSlide = totalSlides;
+    currentSlide = totalSlides;
   }
 
   showSlide(currentSlide);
@@ -338,11 +326,11 @@ function showSlide(slideNumber) {
   const dots = document.getElementsByClassName('dot');
 
   for (let i = 0; i < slides.length; i++) {
-  slides[i].classList.remove('active');
+    slides[i].classList.remove('active');
   }
 
   for (let i = 0; i < dots.length; i++) {
-  dots[i].classList.remove('active');
+    dots[i].classList.remove('active');
   }
 
   slides[slideNumber - 1].classList.add('active');
@@ -350,7 +338,7 @@ function showSlide(slideNumber) {
   document.getElementById('current-slide').textContent = slideNumber;
 }
 
-// (newly added on Mar2 -- Pailsey commented) this function is for letting the functions run after our HTML page is fully loaded!!!
+// this function is for letting the functions run after our HTML page is fully loaded!!!
 window.addEventListener("DOMContentLoaded", () => {
   setRandomHeroBackground();
   initMap();

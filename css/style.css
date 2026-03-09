@@ -77,8 +77,7 @@ header #cta {
   transition: 0.3s ease;
   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
   font-weight:bold;
-    display: inline-block;  /* ensures padding/sizing work properly */
-
+  display: inline-block;
 }
 
 /* FOOTER css */
