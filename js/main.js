@@ -1,3 +1,168 @@
+// added on 3/8, Allen commented
+// Two visualization charts when no seleciton on the map (default view)
+
+let categoryChart;
+let priceChart;
+
+function parseCategoryString(categoryStr) {
+  if (!categoryStr) return [];
+  return categoryStr
+    .replace(/[\[\]']/g, "")
+    .split(",")
+    .map(item => item.trim())
+    .filter(item => item.length > 0);
+}
+
+function buildCategoryCounts(features) {
+  const counts = {};
+
+  features.forEach(feature => {
+    const props = feature.properties;
+    const categories = parseCategoryString(props.Category);
+
+    categories.forEach(cat => {
+      counts[cat] = (counts[cat] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8); // top 8 categories only
+
+  return {
+    labels: sorted.map(item => item[0]),
+    values: sorted.map(item => item[1])
+  };
+}
+
+function buildPriceCounts(features) {
+  const counts = {
+    "$": 0,
+    "$$": 0,
+    "$$$": 0,
+    "$$$$": 0,
+    "Unknown": 0
+  };
+
+  features.forEach(feature => {
+    const props = feature.properties;
+    const price = props.Price ? props.Price.trim() : "Unknown";
+
+    if (counts.hasOwnProperty(price)) {
+      counts[price]++;
+    } else {
+      counts["Unknown"]++;
+    }
+  });
+
+  return {
+    labels: ["$", "$$", "$$$", "$$$$", "Unknown"],
+    values: [
+      counts["$"],
+      counts["$$"],
+      counts["$$$"],
+      counts["$$$$"],
+      counts["Unknown"]
+    ]
+  };
+}
+
+function renderCharts(features) {
+  const categoryCanvas = document.getElementById("categoryChart");
+  const priceCanvas = document.getElementById("priceChart");
+
+  if (!categoryCanvas || !priceCanvas) return;
+
+  const categoryData = buildCategoryCounts(features);
+  const priceData = buildPriceCounts(features);
+
+  if (categoryChart) categoryChart.destroy();
+  if (priceChart) priceChart.destroy();
+
+  categoryChart = new Chart(categoryCanvas, {
+    type: "pie",
+    data: {
+      labels: categoryData.labels,
+      datasets: [{
+        data: categoryData.values
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: "bottom"
+        }
+      }
+    }
+  });
+
+  priceChart = new Chart(priceCanvas, {
+    type: "bar",
+    data: {
+      labels: priceData.labels,
+      datasets: [{
+        label: "Number of Restaurants",
+        data: priceData.values
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            precision: 0
+          }
+        }
+      }
+    }
+  });
+}
+
+function showDashboardView() {
+  const defaultDashboard = document.getElementById("default-dashboard");
+  const restaurantDetail = document.getElementById("restaurant-detail");
+
+  if (defaultDashboard) defaultDashboard.style.display = "block";
+  if (restaurantDetail) restaurantDetail.style.display = "none";
+}
+
+function showRestaurantDetail(props) {
+  const defaultDashboard = document.getElementById("default-dashboard");
+  const restaurantDetail = document.getElementById("restaurant-detail");
+  const infoCard = document.querySelector(".card-details");
+  const detailExtra = document.querySelector(".detail-extra");
+
+  if (defaultDashboard) defaultDashboard.style.display = "none";
+  if (restaurantDetail) restaurantDetail.style.display = "block";
+
+  if (infoCard) {
+    infoCard.innerHTML = `
+      <h3>${props.Name || "Restaurant Information"}</h3>
+      <p>⭐ ${props.Star || "N/A"} (${props.Stars_count || 0} reviews)</p>
+      <p><strong>Price:</strong> ${props.Price || "N/A"}</p>
+      <p><strong>Area:</strong> ${props.Area || "N/A"}</p>
+      <p><strong>City:</strong> ${props["Searched City"] || "N/A"}</p>
+    `;
+  }
+
+  if (detailExtra) {
+    detailExtra.innerHTML = `
+      <h3>More Details</h3>
+      <p><strong>Category:</strong> ${props.Category || "N/A"}</p>
+      <p><strong>Services:</strong> ${props.Services || "N/A"}</p>
+      <p><button id="backToDashboard">Back to charts</button></p>
+    `;
+
+    const backBtn = document.getElementById("backToDashboard");
+    if (backBtn) {
+      backBtn.addEventListener("click", showDashboardView);
+    }
+  }
+}
+
+
 // (newly added on Mar2 -- Pailsey commented)
 // the chunk below are randomizing a restaurant on the first page of the website
 // so like everytime the user click into our website, it will generize one restaurant!
@@ -51,23 +216,56 @@ function initMap() {
     zoom: 12
   });
 
-  map.on('load', () => {
-    map.addSource('restaurants', {
-        type: 'geojson',
-        data: 'assets/sea_restaurants.geojson'
-    });
+  //edited on Mar8, Allen commented
+  // load the geojson data for the charts and add to the map as a layer
+  map.on('load', async () => {
+    try {
+      const response = await fetch('assets/sea_restaurants.geojson');
+      const geojsonData = await response.json();
 
-    map.addLayer({
+      map.addSource('restaurants', {
+        type: 'geojson',
+        data: geojsonData
+      });
+
+      map.addLayer({
         id: 'restaurant-points',
         type: 'circle',
         source: 'restaurants',
         paint: {
-            'circle-radius': 6,
-            'circle-color': '#e63946',
-            'circle-stroke-width': 1,
-            'circle-stroke-color': '#ffffff'
+          'circle-radius': 6,
+          'circle-color': '#e63946',
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#ffffff'
         }
-    });
+      });
+
+      // default state = show charts
+      if (geojsonData.features) {
+        renderCharts(geojsonData.features);
+        showDashboardView();
+      }
+
+      // when user clicks a restaurant dot, show restaurant detail instead of charts
+      map.on('click', 'restaurant-points', (e) => {
+        const feature = e.features[0];
+        const props = feature.properties;
+        showRestaurantDetail(props);
+      });
+
+      // cursor pointer
+      map.on('mouseenter', 'restaurant-points', () => {
+        map.getCanvas().style.cursor = 'pointer';
+      });
+
+      map.on('mouseleave', 'restaurant-points', () => {
+        map.getCanvas().style.cursor = '';
+      });
+
+    } catch (err) {
+      console.error("Error loading restaurant GeoJSON:", err);
+    }
+  });
 
     // when user clicks a restaurant dot, show that restaurant's info in the left panel
     map.on('click', 'restaurant-points', (e) => {
@@ -105,8 +303,9 @@ function initMap() {
       map.getCanvas().style.cursor = '';
     });
 
-  });
+
 }
+
 
 // initial declarations
 
