@@ -315,16 +315,6 @@ function initMap() {
       }
     });
 
-    // change mouse cursor when hovering restaurant points
-    map.on('mouseenter', 'restaurant-points', () => {
-      map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'restaurant-points', () => {
-      map.getCanvas().style.cursor = '';
-    });
-
-
 }
 
 
