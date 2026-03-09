@@ -201,7 +201,11 @@ function initMap() {
       const response = await fetch('assets/sea_restaurants.geojson');
       geojsonData = await response.json();
       const totalRestaurants = geojsonData.features.length;
-      document.getElementById("restaurantCount").innerText = totalRestaurants;
+      // add purple dots to the mini map on the home page -- commented by PW on Mar 5
+      const restaurantCountEl = document.getElementById("restaurantCount");
+      if (restaurantCountEl) {
+        restaurantCountEl.innerText = totalRestaurants;
+      }
 
       map.addSource('restaurants', {
         type: 'geojson',
