@@ -13,6 +13,16 @@ function parseCategoryString(categoryStr) {
     .filter(item => item.length > 0);
 }
 
+function formatCategoryDisplay(categoryStr) {
+  const categories = parseCategoryString(categoryStr);
+  return categories.length > 0 ? categories.join(", ") : "Unknown";
+}
+
+function formatServicesDisplay(servicesStr) {
+  const services = parseCategoryString(servicesStr);
+  return services.length > 0 ? services.join(", ") : "Unknown";
+}
+
 function buildCategoryCounts(features) {
   const counts = {};
 
@@ -274,12 +284,12 @@ function initMap() {
     if (descriptionCard) {
       descriptionCard.innerHTML = `
         <h3>${props.Name || "Unknown Restaurant"}</h3>
-        <p><strong>Category:</strong> ${props.Category || "N/A"}</p>
-        <p><strong>Services:</strong> ${props.Services || "N/A"}</p>
-        <p><strong>Price Range:</strong> ${props.Price || "N/A"}</p>
-        <p><strong>Star Rating:</strong> ${props.Star || "N/A"}</p>
-        <p><strong>Review Count:</strong> ${props.Stars_count || "N/A"}</p>
-        <p><strong>Area:</strong> ${props.Area || "N/A"}</p>
+        <p><strong>Category:</strong> ${formatCategoryDisplay(props.Category)}</p>
+        <p><strong>Services:</strong> ${formatServicesDisplay(props.Services)}</p>
+        <p><strong>Price Range:</strong> ${props.Price || "Unknown"}</p>
+        <p><strong>Star Rating:</strong> ${props.Star || "Unknown"}</p>
+        <p><strong>Review Count:</strong> ${props.Stars_count || "Unknown"}</p>
+        <p><strong>Area:</strong> ${props.Area || "Unknown"}</p>
       `;
     }
   });
@@ -291,12 +301,13 @@ function initMap() {
 
     // stars : https://emojicombos.com/star
     const rating = Math.round(feature.properties.Star || 0);
+    const actualRating = feature.properties.Star || 0;
     const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
     hoverPopup
       .setLngLat(coords)
       .setHTML(`
         <h4>${feature.properties.Name}</h4>
-        <p>${stars}</p>
+        <p>${stars} ${actualRating.toFixed(1)}</p>
         <p>${feature.properties.Stars_count} reviews</p>`)
       .addTo(map);
 
