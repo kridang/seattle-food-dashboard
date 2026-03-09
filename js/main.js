@@ -284,12 +284,13 @@ function initMap() {
     if (descriptionCard) {
       descriptionCard.innerHTML = `
         <h3>${props.Name || "Unknown Restaurant"}</h3>
+        <p><strong>Area:</strong> ${props.Area || "Unknown"}</p>
+        <p><strong>Address:</strong> ${props.Address || "Unknown"}</p>
         <p><strong>Category:</strong> ${formatCategoryDisplay(props.Category)}</p>
         <p><strong>Services:</strong> ${formatServicesDisplay(props.Services)}</p>
         <p><strong>Price Range:</strong> ${props.Price || "Unknown"}</p>
         <p><strong>Star Rating:</strong> ${props.Star || "Unknown"}</p>
         <p><strong>Review Count:</strong> ${props.Stars_count || "Unknown"}</p>
-        <p><strong>Area:</strong> ${props.Area || "Unknown"}</p>
       `;
     }
   });
