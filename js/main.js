@@ -317,10 +317,17 @@ function initMap() {
       }
 
       function updateChartsInView() {
-        if (!geojsonData || !geojsonData.features) return;
-
+        if (!allGeojsonFeatures.length) return;
         const bounds = map.getBounds();
-        const featuresInView = getRestaurantsInBounds(geojsonData.features, bounds);
+
+        const filteredFeatures = selectedPrices.length === 0
+          ? allGeojsonFeatures
+          : allGeojsonFeatures.filter(feature => {
+              const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
+              return selectedPrices.includes(price);
+            });
+
+        const featuresInView = getRestaurantsInBounds(filteredFeatures, bounds);
         renderCharts(featuresInView);
       }
 
