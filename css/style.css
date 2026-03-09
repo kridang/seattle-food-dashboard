@@ -80,6 +80,12 @@ header #cta {
   display: inline-block;
 }
 
+header #cta:hover {
+  background-color: #962585;
+  color: white;
+  transform: scale(1.1);
+}
+
 /* FOOTER css */
 .footer {
   text-align: center;
@@ -256,6 +262,7 @@ header #cta {
   display: flex;
   padding: 10px;
   min-height: 0;
+  position: relative;
 }
 
 .info-card {
@@ -265,6 +272,80 @@ header #cta {
   border-radius: 8px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
 }
+
+/* Filter css*/
+.filter-container {
+  position: absolute;
+  background-color: #dbdbdb8f;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 1000;
+}
+
+.filter-toggle {
+  background-color: #C286FF;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
+}
+
+.filter-toggle:hover {
+  background-color: #962585;
+  transform: scale(1.1);
+  color:white; 
+}
+
+.filter-options {
+  display: none;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.filter-container.expanded .filter-options {
+  display: flex;
+}
+
+.filter-btn {
+  background-color: #F3E48D;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #eae7d2;
+  transform: scale(1.1);
+}
+
+.filter-btn.active {
+  background-color: #ccb119;
+  color: #ffffff;
+}
+
+.filter-btn.clear-filter {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+}
+
+#priceFilterContainer {
+  top: 15px;
+  left: 15px;
+}
+
 
 /* RESPONSIVE css  */
 @media (max-width: 768px) {

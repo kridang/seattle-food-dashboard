@@ -4,6 +4,10 @@ let categoryChart;
 let priceChart;
 // two visualization charts when no selection on the map (default view)
 
+let selectedPrices = [];
+let allGeojsonFeatures = [];
+// states for filter
+
 function parseCategoryString(categoryStr) {
   if (!categoryStr) return [];
   return categoryStr
@@ -75,6 +79,70 @@ function buildPriceCounts(features) {
       counts["Unknown"]
     ]
   };
+}
+
+function applyPriceFilter() {
+  if (!allGeojsonFeatures.length) return;
+
+  const filteredFeatures = selectedPrices.length === 0 
+    ? allGeojsonFeatures 
+    : allGeojsonFeatures.filter(feature => {
+        const price = feature.properties.Price ? feature.properties.Price.trim() : "Unknown";
+        return selectedPrices.includes(price);
+      });
+
+  const mapElement = document.getElementById('map');
+  if (mapElement && mapElement.__mapInstance) {
+    const source = mapElement.__mapInstance.getSource('restaurants');
+    if (source) {
+      const filteredGeojson = {
+        type: "FeatureCollection",
+        features: filteredFeatures
+      };
+      source.setData(filteredGeojson);
+    }
+  }
+  renderCharts(filteredFeatures);
+}
+
+function initPriceFilterListeners() {
+  const toggleBtn = document.getElementById('priceFilterToggle');
+  const filterContainer = document.getElementById('priceFilterContainer');
+  
+  if (toggleBtn && filterContainer) {
+    toggleBtn.addEventListener('click', () => {
+      filterContainer.classList.toggle('expanded');
+      filterContainer.classList.toggle('collapsed');
+    });
+  }
+
+  document.querySelectorAll('#priceFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const price = e.target.dataset.price;
+      
+      if (selectedPrices.includes(price)) {
+        selectedPrices = selectedPrices.filter(p => p !== price);
+        e.target.classList.remove('active');
+      } else {
+        selectedPrices.push(price);
+        e.target.classList.add('active');
+      }
+      
+      applyPriceFilter();
+    });
+  });
+
+  // For clear filter button
+  const clearBtn = document.querySelector('#priceFilterContainer .filter-btn.clear-filter');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      selectedPrices = [];
+      document.querySelectorAll('#priceFilterContainer .filter-btn:not(.clear-filter)').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      applyPriceFilter();
+    });
+  }
 }
 
 function renderCharts(features) {
@@ -210,12 +278,16 @@ function initMap() {
     try {
       const response = await fetch('assets/sea_restaurants.geojson');
       geojsonData = await response.json();
+      allGeojsonFeatures = geojsonData.features;
+      
       const totalRestaurants = geojsonData.features.length;
       // add purple dots to the mini map on the home page -- commented by PW on Mar 5
       const restaurantCountEl = document.getElementById("restaurantCount");
       if (restaurantCountEl) {
         restaurantCountEl.innerText = totalRestaurants;
       }
+
+      mapElement.__mapInstance = map;
 
       map.addSource('restaurants', {
         type: 'geojson',
@@ -233,6 +305,8 @@ function initMap() {
           'circle-stroke-color': '#000000'
         }
       });
+
+      initPriceFilterListeners();
 
       // dynamic charts depending on map bounds
       renderCharts(geojsonData.features);
