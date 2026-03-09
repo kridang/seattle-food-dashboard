@@ -176,10 +176,6 @@ function showRestaurantDetail(props) {
       <p><button id="backToDashboard">Back to charts</button></p>
     `;
 
-    const backBtn = document.getElementById("backToDashboard");
-    if (backBtn) {
-      backBtn.addEventListener("click", showDashboardView);
-    }
   }
 }
 
