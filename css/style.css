@@ -548,6 +548,7 @@ header #cta:hover {
   margin-top: 1rem;
   font-size: 0.85rem;
   color: #777;
+  text-align: center;
 }
 
 .repo-section {

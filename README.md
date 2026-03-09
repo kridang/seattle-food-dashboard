@@ -24,6 +24,7 @@ One or two screenshots to illustrate the project's functions.
 - [Kaggle - Seattle Area Restaurants (Data collected from YELP)](https://www.kaggle.com/datasets/oklena/seattle-area-restaurants)
 
 ## Other Notes
+- This project relies on a a 4-year old dataset from Kaggle, that originally was derived from YELP. Information from the dashboard provided may not be up-to-date.
 
 ## Acknowledgment
 <!-- add ai acknowledgements -->
