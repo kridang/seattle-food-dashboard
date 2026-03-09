@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <!--add Chart.js for visualizations-->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -32,19 +36,40 @@
 
     <!-- TODO: someone mentioned the layout for our map dashboard/view being an L-shape, though I think just a column could work the same way too. Up to yall -jeff 3/7 -->
     <!-- left-side info panel -->
-    <div class="left-section">
-      <div class="info-card card-details">
-        <h3>Information</h3>
-        <p>Closes 8 PM</p>
-        <p>123 Elmo Street, Seattle, WA 12345</p>
-        <p><a href="">website.com</a></p>
-        <p>xxx-xxx-xxxx</p>
-      </div>
+<div class="left-section">
 
-      <div class="info-card description-card">
-        <h3>Click on any dot for more info!</h3>
-      </div>
+  <!-- when no dot is selected: default display: summary + charts -->
+  <div id="default-view">
+    <div class="info-card description-card">
+      <h3>Seattle Restaurant Overview</h3>
+      <p>Click on any dot for more info!</p>
     </div>
+
+    <div class="info-card chart-card">
+      <h3>Restaurant Categories</h3>
+      <canvas id="categoryChart"></canvas>
+    </div>
+
+    <div class="info-card chart-card">
+      <h3>Restaurants by Price Range</h3>
+      <canvas id="priceChart"></canvas>
+    </div>
+  </div>
+
+  <!-- when a dot is selected: detailed information -->
+  <div id="detail-view" style="display:none;">
+    <div class="info-card card-details">
+      <h3 id="restaurant-name">Information</h3>
+      <p id="restaurant-stars"></p>
+      <p id="restaurant-area"></p>
+      <p id="restaurant-category"></p>
+      <p id="restaurant-price"></p>
+      <p id="restaurant-coords"></p>
+      <button id="back-btn">Back to overview</button>
+    </div>
+  </div>
+
+</div>
 
     <!-- map panel -->
     <div class="right-section">
