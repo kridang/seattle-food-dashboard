@@ -1,5 +1,5 @@
 // added on 3/8, Allen commented
-// Two visualization charts when no seleciton on the map (default view)
+// Two visualization charts when no selection on the map (default view)
 
 let categoryChart;
 let priceChart;
@@ -79,7 +79,7 @@ function renderCharts(features) {
   if (categoryChart) categoryChart.destroy();
   if (priceChart) priceChart.destroy();
 
-const pieColors = [
+const pieColors = [ // color palette for pie chart (up to 12 colors)
   "#4E79A7",
   "#F28E2B",
   "#E15759",
@@ -238,11 +238,13 @@ function initMap() {
   });
 
   //edited on Mar8, Allen commented
-  // load the geojson data for the charts and add to the map as a layer
+  // load the geojson data for the statistics and charts and add to the map as a layer
   map.on('load', async () => {
     try {
       const response = await fetch('assets/sea_restaurants.geojson');
       const geojsonData = await response.json();
+      const totalRestaurants = geojsonData.features.length;
+      document.getElementById("restaurantCount").innerText = totalRestaurants;
 
       map.addSource('restaurants', {
         type: 'geojson',
