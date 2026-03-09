@@ -79,5 +79,21 @@
   </div>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
   <script src="js/main.js"></script>
+
+<!-- add tutorial help button on the main map page -- commented by PW on Mar 9 -->
+<button id="help-button" class="help-button">?</button>
+
+<!-- add tutorial popup function to the tutorial button -- commented by PW on Mar 9 -->
+<div id="tutorialOverlay" class="tutorial-overlay">
+  <div class="tutorial-box">
+    <button id="tutorialClose" class="tutorial-close">&times;</button>
+    <div id="tutorialContent" class="tutorial-content"></div>
+
+    <div class="tutorial-nav">
+      <button id="prevSlide">Back</button>
+      <button id="nextSlide">Next</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>

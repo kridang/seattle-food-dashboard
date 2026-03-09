@@ -342,9 +342,96 @@ function showSlide(slideNumber) {
   document.getElementById('current-slide').textContent = slideNumber;
 }
 
+// adding tutorial function to the main map page! -- commented by PW on Mar 5
+function initTutorial() {
+  const tutorialSlides = [
+    `
+    <h2>Welcome to the Seattle Food Dashboard!</h2>
+    <p>Let's explore restaurant locations across Seattle and view summary charts!</p>
+    `,
+    `
+    <h2>Explore the Map</h2>
+    <p>The purple dots represent restaurants in Seattle. Move around the map to explore different areas!</p>
+    <img src="img/dots.png">
+    `,
+    `
+    <h2>Hover for Brief Info</h2>
+    <p>Hover on a purple dot to see the restaurant name, star rating, and review count.</p>
+    <img src="img/hover.png">
+    `,
+    `
+    <h2>Click for More Details</h2>
+    <p>Click on any dot to view more detailed information in the left side panel!</p>
+    <img src="img/click.png">
+    `,
+    `
+    <h2>Charts Update with the Map</h2>
+    <p>The charts on the left summarize restaurant categories and price ranges based on what is currently in view on the map.</p>
+    <img src="img/charts.png" width="300">
+    `,
+    `
+    <h2>Now you're ready to explore! Have fun!</h2>
+    <p>Let's use the map and charts together to discover restaurant patterns across Seattle.</p>
+    `
+  ];
+
+  let tutorialIndex = 0;
+
+  const overlay = document.getElementById("tutorialOverlay");
+  const content = document.getElementById("tutorialContent");
+  const prevBtn = document.getElementById("prevSlide");
+  const nextBtn = document.getElementById("nextSlide");
+  const closeBtn = document.getElementById("tutorialClose");
+  const helpBtn = document.getElementById("help-button");
+
+  if (!overlay || !content || !prevBtn || !nextBtn || !closeBtn || !helpBtn) return;
+
+  function updateTutorial() {
+    content.innerHTML = tutorialSlides[tutorialIndex];
+
+    if (tutorialIndex === 0) {
+      prevBtn.style.display = "none";
+      nextBtn.style.display = "inline-block";
+    } else if (tutorialIndex === tutorialSlides.length - 1) {
+      prevBtn.style.display = "inline-block";
+      nextBtn.style.display = "none";
+    } else {
+      prevBtn.style.display = "inline-block";
+      nextBtn.style.display = "inline-block";
+    }
+  }
+
+  updateTutorial();
+
+  nextBtn.addEventListener("click", () => {
+    if (tutorialIndex < tutorialSlides.length - 1) {
+      tutorialIndex++;
+      updateTutorial();
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (tutorialIndex > 0) {
+      tutorialIndex--;
+      updateTutorial();
+    }
+  });
+
+  closeBtn.addEventListener("click", () => {
+    overlay.classList.remove("visible");
+  });
+
+  helpBtn.addEventListener("click", () => {
+    tutorialIndex = 0;
+    updateTutorial();
+    overlay.classList.add("visible");
+  });
+}
+
 // this function is for letting the functions run after our HTML page is fully loaded!!!
 window.addEventListener("DOMContentLoaded", () => {
   setRandomHeroBackground();
   initMap();
+  initTutorial();
   showSlide(1);
 });

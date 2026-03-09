@@ -511,3 +511,99 @@ header #cta {
   color: #fff;
   transform: translateY(-2px);
 }
+
+/* add help button -- commented by PW on Mar 5*/
+.help-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: #962585;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 2000;
+}
+
+.help-button:hover {
+  background-color: #7a1f6f;
+}
+
+.tutorial-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.tutorial-overlay.visible {
+  display: flex;
+}
+
+.tutorial-box {
+  background: white;
+  width: 90%;
+  max-width: 650px;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+}
+
+.tutorial-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.tutorial-content h2 {
+  color: #962585;
+  margin-bottom: 1rem;
+}
+
+.tutorial-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.tutorial-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.tutorial-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.tutorial-nav button {
+  border: none;
+  background-color: #962585;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tutorial-nav button:hover {
+  background-color: #7a1f6f;
+}
