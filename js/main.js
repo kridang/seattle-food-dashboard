@@ -141,43 +141,6 @@ categoryChart = new Chart(categoryCanvas, {
   });
 }
 
-function showDashboardView() {
-  const defaultDashboard = document.getElementById("default-dashboard");
-  const restaurantDetail = document.getElementById("restaurant-detail");
-
-  if (defaultDashboard) defaultDashboard.style.display = "block";
-  if (restaurantDetail) restaurantDetail.style.display = "none";
-}
-
-function showRestaurantDetail(props) {
-  const defaultDashboard = document.getElementById("default-dashboard");
-  const restaurantDetail = document.getElementById("restaurant-detail");
-  const infoCard = document.querySelector(".card-details");
-  const detailExtra = document.querySelector(".detail-extra");
-
-  if (defaultDashboard) defaultDashboard.style.display = "none";
-  if (restaurantDetail) restaurantDetail.style.display = "block";
-
-  if (infoCard) {
-    infoCard.innerHTML = `
-      <h3>${props.Name || "Restaurant Information"}</h3>
-      <p>⭐ ${props.Star || "N/A"} (${props.Stars_count || 0} reviews)</p>
-      <p><strong>Price:</strong> ${props.Price || "N/A"}</p>
-      <p><strong>Area:</strong> ${props.Area || "N/A"}</p>
-      <p><strong>City:</strong> ${props["Searched City"] || "N/A"}</p>
-    `;
-  }
-
-  if (detailExtra) {
-    detailExtra.innerHTML = `
-      <h3>More Details</h3>
-      <p><strong>Category:</strong> ${props.Category || "N/A"}</p>
-      <p><strong>Services:</strong> ${props.Services || "N/A"}</p>
-      <p><button id="backToDashboard">Back to charts</button></p>
-    `;
-
-  }
-}
 
 
 // (newly added on Mar2 -- Pailsey commented)
@@ -262,7 +225,6 @@ function initMap() {
       // default state = show charts
       if (geojsonData.features) {
         renderCharts(geojsonData.features);
-        showDashboardView();
       }
 
 
@@ -284,7 +246,6 @@ function initMap() {
     map.on('click', 'restaurant-points', (e) => {
       const feature = e.features[0];
       const props = feature.properties;
-      showRestaurantDetail(props);
       const infoCard = document.querySelector('.card-details');
       const descriptionCard = document.querySelector('.description-card');
 
