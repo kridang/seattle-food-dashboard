@@ -201,12 +201,26 @@ function initMap() {
     closeOnClick: false
   });
 
+  let geojsonData;
+
+  function getRestaurantsInBounds(features, bounds) {
+    return features.filter(f => bounds.contains(f.geometry.coordinates));
+  }
+
+  function updateChartsInView() {
+    if (!geojsonData || !geojsonData.features) return;
+
+    const bounds = map.getBounds();
+    const featuresInView = getRestaurantsInBounds(geojsonData.features, bounds);
+    renderCharts(featuresInView);
+  }
+
   //edited on Mar8, Allen commented
   // load the geojson data for the statistics and charts and add to the map as a layer
   map.on('load', async () => {
     try {
       const response = await fetch('assets/sea_restaurants.geojson');
-      const geojsonData = await response.json();
+      geojsonData = await response.json();
       const totalRestaurants = geojsonData.features.length;
       document.getElementById("restaurantCount").innerText = totalRestaurants;
 
@@ -227,11 +241,9 @@ function initMap() {
         }
       });
 
-      // default state = show charts
-      if (geojsonData.features) {
-        renderCharts(geojsonData.features);
-      }
-
+      renderCharts(geojsonData.features);
+      map.on("moveend", updateChartsInView);
+      // dynamic charts depending on map bounds - kri, lmk if u guys wanna keep this!
 
       // cursor pointer
       map.on('mouseenter', 'restaurant-points', () => {
@@ -247,60 +259,60 @@ function initMap() {
     }
   });
 
-    // when user clicks a restaurant dot, show that restaurant's info in the left panel
-    map.on('click', 'restaurant-points', (e) => {
-      const feature = e.features[0];
-      const props = feature.properties;
-      const infoCard = document.querySelector('.card-details');
-      const descriptionCard = document.querySelector('.description-card');
+  // when user clicks a restaurant dot, show that restaurant's info in the left panel
+  map.on('click', 'restaurant-points', (e) => {
+    const feature = e.features[0];
+    const props = feature.properties;
+    const infoCard = document.querySelector('.card-details');
+    const descriptionCard = document.querySelector('.description-card');
 
-      if (infoCard) {
-        infoCard.innerHTML = `
-          <h3>Information</h3>
-          <p>⭐ ${props.Star} (${props.Stars_count} reviews)</p>
-          <p>Price: ${props.Price}</p>
-          <p>Area: ${props.Area}</p>
-          <p>${props["Searched City"]}</p>
-        `;
-      }
+    if (infoCard) {
+      infoCard.innerHTML = `
+        <h3>Information</h3>
+        <p>⭐ ${props.Star} (${props.Stars_count} reviews)</p>
+        <p>Price: ${props.Price}</p>
+        <p>Area: ${props.Area}</p>
+        <p>${props["Searched City"]}</p>
+      `;
+    }
 
-      if (descriptionCard) {
-        descriptionCard.innerHTML = `
-      <h3>${props.Name || "Unknown Restaurant"}</h3>
-      <p><strong>Category:</strong> ${props.Category || "N/A"}</p>
-      <p><strong>Services:</strong> ${props.Services || "N/A"}</p>
-      <p><strong>Price Range:</strong> ${props.Price || "N/A"}</p>
-      <p><strong>Star Rating:</strong> ${props.Star || "N/A"}</p>
-      <p><strong>Review Count:</strong> ${props.Stars_count || "N/A"}</p>
-      <p><strong>Area:</strong> ${props.Area || "N/A"}</p>
-        `;
-      }
-    });
+    if (descriptionCard) {
+      descriptionCard.innerHTML = `
+        <h3>${props.Name || "Unknown Restaurant"}</h3>
+        <p><strong>Category:</strong> ${props.Category || "N/A"}</p>
+        <p><strong>Services:</strong> ${props.Services || "N/A"}</p>
+        <p><strong>Price Range:</strong> ${props.Price || "N/A"}</p>
+        <p><strong>Star Rating:</strong> ${props.Star || "N/A"}</p>
+        <p><strong>Review Count:</strong> ${props.Stars_count || "N/A"}</p>
+        <p><strong>Area:</strong> ${props.Area || "N/A"}</p>
+      `;
+    }
+  });
 
-    // hover popup for rating and name
-    map.on('mousemove', 'restaurant-points', (e) => {
-      const feature = e.features[0];
-      const coords = feature.geometry.coordinates.slice();
+  // hover popup with stars and rest name - kri
+  map.on('mousemove', 'restaurant-points', (e) => {
+    const feature = e.features[0];
+    const coords = feature.geometry.coordinates.slice();
 
-      // stars : https://emojicombos.com/star
-      const rating = Math.round(feature.properties.Star || 0);
-      const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
+    // stars : https://emojicombos.com/star
+    const rating = Math.round(feature.properties.Star || 0);
+    const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
+    hoverPopup
+      .setLngLat(coords)
+      .setHTML(`
+        <h4>${feature.properties.Name}</h4>
+        <p>${stars}</p>
+        <p>${feature.properties.Stars_count} reviews</p>
+      `)
+      .addTo(map);
 
-      hoverPopup
-        .setLngLat(coords)
-        .setHTML(`
-          <h4>${feature.properties.Name}</h4>
-          <p>${stars}</p>
-          <p>${feature.properties.Stars_count} reviews</p>
-        `)
-        .addTo(map);
-    });
+    map.getCanvas().style.cursor = 'pointer';
+  });
 
-    map.on('mouseleave', 'restaurant-points', () => {
-      hoverPopup.remove();
-    });
+  map.on('mouseleave', 'restaurant-points', () => {
+    hoverPopup.remove();
+  });
 }
-
 
 // initial declarations
 
