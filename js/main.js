@@ -617,6 +617,11 @@ function initTutorial() {
     <img src="img/dots.png">
     `,
     `
+    <h2>Filter by Price, Rating, or Category</h2>
+    <p>Explore restaurants by price, rating, and category using the map and charts.</p>
+    <img src="img/filter.png">
+    `,
+    `
     <h2>Hover for Brief Info</h2>
     <p>Hover on a purple dot to see the restaurant name, star rating, and review count.</p>
     <img src="img/hover.png">
