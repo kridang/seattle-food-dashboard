@@ -301,6 +301,21 @@ function renderCharts(features) {
     "#499894"
   ];
 
+    // const pieColors = [
+    //   "#9633d8",
+    //   "#7b2cbf",
+    //   "#9d4edd",
+    //   "#c77dff",
+    //   "#b46ee8",
+    //   "#f2c94c",
+    //   "#ffd966",
+    //   "#ffe066",
+    //   "#5a189a",
+    //   "#d1a7f2",
+    //   "#e9c46a",
+    //   "#ffdd57"
+    // ];
+
   categoryChart = new Chart(categoryCanvas, {
     type: "pie",
     data: {
@@ -308,7 +323,7 @@ function renderCharts(features) {
       datasets: [{
         data: categoryData.values,
         backgroundColor: pieColors.slice(0, categoryData.labels.length),
-        borderColor: "#ffffff",
+        borderColor: "#9e87a7",
         borderWidth: 2
       }]
     },
@@ -326,9 +341,16 @@ function renderCharts(features) {
     type: "bar",
     data: {
       labels: priceData.labels,
+      // datasets: [{
+      //   label: "Number of Restaurants",
+      //   data: priceData.values
+      // }]
       datasets: [{
         label: "Number of Restaurants",
-        data: priceData.values
+        data: priceData.values,
+        backgroundColor: "#9e53cf",
+        borderColor: "#680fa3",
+        borderWidth: 1
       }]
     },
     options: {
