@@ -473,7 +473,7 @@
         ]
       },
       "properties": {
-        "Name": "Fog\u00c3\u00b3n Cocina Mexicana",
+        "Name": "Fogón Cocina Mexicana",
         "Star": 4.5,
         "Stars_count": 1601,
         "Price": "$$",
@@ -481,7 +481,7 @@
         "Category": "['Mexican']",
         "Services": "['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "600 E Pine St, Seattle, WA 98122"
       }
     },
     {
@@ -641,7 +641,7 @@
         ]
       },
       "properties": {
-        "Name": "Von\u00e2\u20ac\u2122s 1000 Spirits",
+        "Name": "Von's 1000 Spirits",
         "Star": 4.5,
         "Stars_count": 1946,
         "Price": "$$",
@@ -649,7 +649,7 @@
         "Category": "['American (New)', 'Burgers', 'Pubs']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1225 1st Ave, Seattle, WA 98101"
       }
     },
     {
@@ -830,7 +830,7 @@
         ]
       },
       "properties": {
-        "Name": "The Butcher\u00e2\u20ac\u2122s Table",
+        "Name": "The Butcher's Table",
         "Star": 4,
         "Stars_count": 558,
         "Price": "$$$$",
@@ -838,7 +838,7 @@
         "Category": "['Steakhouses', 'Butcher', 'Wine Bars']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2121 Westlake Ave N, Seattle, WA 98121"
       }
     },
     {
@@ -851,7 +851,7 @@
         ]
       },
       "properties": {
-        "Name": "D\u00e2\u20ac\u2122 La Santa",
+        "Name": "D'La Santa",
         "Star": 4.5,
         "Stars_count": 314,
         "Price": "$$",
@@ -859,7 +859,7 @@
         "Category": "['Mexican', 'Steakhouses']",
         "Services": "['Outdoor dining', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2359 10th Ave E, Seattle, WA 98102"
       }
     },
     {
@@ -893,7 +893,7 @@
         ]
       },
       "properties": {
-        "Name": "Tavol\u00c3\u00a0ta",
+        "Name": "Tavolàta",
         "Star": 4,
         "Stars_count": 1029,
         "Price": "$$$",
@@ -901,7 +901,7 @@
         "Category": "['Italian']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2323 2nd Ave, Seattle, WA 98121"
       }
     },
     {
@@ -1124,7 +1124,7 @@
         ]
       },
       "properties": {
-        "Name": "Xi\u00e2\u20ac\u2122an Noodles",
+        "Name": "Xi'an Noodles",
         "Star": 4.5,
         "Stars_count": 910,
         "Price": "$$",
@@ -1132,7 +1132,7 @@
         "Category": "['Chinese', 'Hot Pot']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "5259 University Wy NE, Seattle, WA 98105"
       }
     },
     {
@@ -1153,7 +1153,7 @@
         "Category": "['Ramen', 'Noodles']",
         "Services": "['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1222 E Pine St, Seattle, WA 98122"
       }
     },
     {
@@ -1166,7 +1166,7 @@
         ]
       },
       "properties": {
-        "Name": "A + Hong Kong Kitchen",
+        "Name": "A+ Hong Kong Kitchen",
         "Star": 4,
         "Stars_count": 596,
         "Price": "$$",
@@ -1279,7 +1279,7 @@
         "Category": "['Greek', 'Mediterranean', 'Breakfast & Brunch']",
         "Services": "[]",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2000 B 4th Ave, Seattle, WA 98121"
       }
     },
     {
@@ -1355,7 +1355,7 @@
         ]
       },
       "properties": {
-        "Name": "Mike\u00e2\u20ac\u2122s Noodle House",
+        "Name": "Mike's Noodle House",
         "Star": 4,
         "Stars_count": 1186,
         "Price": "$$",
@@ -1363,7 +1363,7 @@
         "Category": "['Chinese', 'Noodles', 'Soup']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "418 Maynard Ave S, Seattle, WA 98104"
       }
     },
     {
@@ -1376,7 +1376,7 @@
         ]
       },
       "properties": {
-        "Name": "Shiro\u00e2\u20ac\u2122s",
+        "Name": "Shiro's Sushi",
         "Star": 4.5,
         "Stars_count": 2269,
         "Price": "$$$$",
@@ -1384,7 +1384,7 @@
         "Category": "['Sushi Bars', 'Japanese']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2401 2nd Ave, Seattle, WA 98121"
       }
     },
     {
@@ -1460,7 +1460,7 @@
         ]
       },
       "properties": {
-        "Name": "Dough Zone - Seattle Pine St.",
+        "Name": "Dough Zone",
         "Star": 4,
         "Stars_count": 502,
         "Price": "$$",
@@ -1523,7 +1523,7 @@
         ]
       },
       "properties": {
-        "Name": "Cookie\u00e2\u20ac\u2122s Country Chicken",
+        "Name": "Cookie's Country Chicken",
         "Star": 4.5,
         "Stars_count": 69,
         "Price": "$$",
@@ -1531,7 +1531,7 @@
         "Category": "['Chicken Shop', 'Pop-Up Restaurants']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "907 NW Ballard Way #100, Seattle, WA 98107"
       }
     },
     {
@@ -1544,7 +1544,7 @@
         ]
       },
       "properties": {
-        "Name": "Caf\u00c3\u00a9 Hagen",
+        "Name": "Café Hagen",
         "Star": 4,
         "Stars_count": 151,
         "Price": "",
@@ -1552,7 +1552,7 @@
         "Category": "['Scandinavian', 'Cafes']",
         "Services": "['Outdoor dining']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2128 Queen Anne Ave N, Seattle, WA 98109"
       }
     },
     {
@@ -1649,7 +1649,7 @@
         ]
       },
       "properties": {
-        "Name": "Quinn\u00e2\u20ac\u2122s",
+        "Name": "Quinn's",
         "Star": 4,
         "Stars_count": 1305,
         "Price": "$$",
@@ -1657,7 +1657,7 @@
         "Category": "['American (New)', 'Pubs']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1001 E Pike St, Seattle, WA 98122"
       }
     },
     {
@@ -1712,7 +1712,7 @@
         ]
       },
       "properties": {
-        "Name": "Dough Zone - International District",
+        "Name": "Dough Zone",
         "Star": 4,
         "Stars_count": 1098,
         "Price": "$$",
@@ -1720,7 +1720,7 @@
         "Category": "['Shanghainese', 'Dim Sum', 'Noodles']",
         "Services": "['Live wait time: 0 mins', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "504 5th Ave S #109, Seattle, WA 98104"
       }
     },
     {
@@ -1733,7 +1733,7 @@
         ]
       },
       "properties": {
-        "Name": "Due\u00e2\u20ac\u2122 Cucina Italiana - Capitol Hill",
+        "Name": "Due' Cucina Italiana - Capitol Hill",
         "Star": 4.5,
         "Stars_count": 602,
         "Price": "$$",
@@ -1741,7 +1741,7 @@
         "Category": "['Italian', 'Pasta Shops']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "412 Broadway E, Seattle, WA 98102"
       }
     },
     {
@@ -1783,7 +1783,7 @@
         "Category": "['Wine Bars', 'Tapas/Small Plates']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1416 34th Ave, Seattle, WA 98122"
       }
     },
     {
@@ -1930,7 +1930,7 @@
         "Category": "['Puerto Rican', 'American (Traditional)']",
         "Services": "['Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1417 Elliott Ave W, Seattle, WA 98119"
       }
     },
     {
@@ -2056,7 +2056,7 @@
         "Category": "['Cocktail Bars', 'American (New)', 'Venues & Event Spaces']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "731 Westlake Ave N, Seattle, WA 98109"
       }
     },
     {
@@ -2069,7 +2069,7 @@
         ]
       },
       "properties": {
-        "Name": "Portage Bay Cafe - Roosevelt",
+        "Name": "Portage Bay Cafe",
         "Star": 4,
         "Stars_count": 2504,
         "Price": "$$",
@@ -2132,7 +2132,7 @@
         ]
       },
       "properties": {
-        "Name": "Rocco\u00e2\u20ac\u2122s",
+        "Name": "Rocco's",
         "Star": 4,
         "Stars_count": 1563,
         "Price": "$$",
@@ -2140,7 +2140,7 @@
         "Category": "['Bars', 'Pizza']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2312 2nd Ave, Seattle, WA 98121"
       }
     },
     {
@@ -2342,7 +2342,7 @@
         ]
       },
       "properties": {
-        "Name": "Daniel\u00e2\u20ac\u2122s Broiler",
+        "Name": "Daniel's Broiler",
         "Star": 3.5,
         "Stars_count": 860,
         "Price": "$$$$",
@@ -2350,7 +2350,7 @@
         "Category": "['Steakhouses', 'Seafood']",
         "Services": "['Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "809 Fairview Pl N, Seattle, WA 98109"
       }
     },
     {
@@ -2363,7 +2363,7 @@
         ]
       },
       "properties": {
-        "Name": "Sizzle&Crunch",
+        "Name": "Sizzle & Crunch",
         "Star": 4,
         "Stars_count": 27,
         "Price": "",
@@ -2447,7 +2447,7 @@
         ]
       },
       "properties": {
-        "Name": "wa\u00e2\u20ac\u2122z",
+        "Name": "wa'z",
         "Star": 4.5,
         "Stars_count": 119,
         "Price": "$$$$",
@@ -2455,7 +2455,7 @@
         "Category": "['Japanese']",
         "Services": "['Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "411 Cedar St, Seattle, WA 98121"
       }
     },
     {
@@ -2476,7 +2476,7 @@
         "Category": "['Bars', 'Pizza', 'Italian']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1546 15th Ave, Seattle, WA 98122"
       }
     },
     {
@@ -2594,7 +2594,7 @@
         ]
       },
       "properties": {
-        "Name": "Ma\u00e2\u20ac\u2122ono Fried Chicken",
+        "Name": "Ma'ono Fried Chicken",
         "Star": 4.5,
         "Stars_count": 23,
         "Price": "$$",
@@ -2602,7 +2602,7 @@
         "Category": "['Chicken Shop', 'Sandwiches']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "4626 26th Ave NE, Seattle, WA 98105"
       }
     },
     {
@@ -2623,7 +2623,7 @@
         "Category": "['American (New)', 'Gastropubs', 'Tapas/Small Plates']",
         "Services": "[]",
         "Searched City": "Seattle",
-        "Address": "919 Bellevue Way NE, Bellevue, WA 98004"
+        "Address": "2600 1st Ave, Seattle, WA 98121"
       }
     },
     {
@@ -2720,7 +2720,7 @@
         ]
       },
       "properties": {
-        "Name": "Qin Xi\u00e2\u20ac\u2122an Noodles",
+        "Name": "Qin Xi'an Noodles",
         "Star": 4,
         "Stars_count": 344,
         "Price": "$$",
@@ -2728,7 +2728,7 @@
         "Category": "['Chinese', 'Noodles']",
         "Services": "['Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1203 Pine St, Seattle, WA 98101"
       }
     },
     {
@@ -2749,7 +2749,7 @@
         "Category": "['Bars', 'Thai', 'Tapas/Small Plates']",
         "Services": "['Live wait time: 0 mins', 'Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "2319 2nd Ave, Seattle, WA 98121"
       }
     },
     {
@@ -2783,7 +2783,7 @@
         ]
       },
       "properties": {
-        "Name": "Pho Bac S\u00c3\u00bap Shop",
+        "Name": "Pho Bac Súp Shop",
         "Star": 4,
         "Stars_count": 769,
         "Price": "$$",
@@ -2791,7 +2791,7 @@
         "Category": "['Vietnamese', 'Noodles']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1240 S Jackson St, Seattle, WA 98144"
       }
     },
     {
@@ -2804,7 +2804,7 @@
         ]
       },
       "properties": {
-        "Name": "Oliver\u00e2\u20ac\u2122s Lounge",
+        "Name": "Oliver's Lounge",
         "Star": 4,
         "Stars_count": 166,
         "Price": "$$",
@@ -2812,7 +2812,7 @@
         "Category": "['Lounges', 'Cocktail Bars', 'American (Traditional)']",
         "Services": "['Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "Mayflower Park Hotel, 405 Olive Wy, Seattle, WA 98101"
       }
     },
     {
@@ -2825,7 +2825,7 @@
         ]
       },
       "properties": {
-        "Name": "Nana\u00e2\u20ac\u2122s Green Tea",
+        "Name": "Nana's Green Tea",
         "Star": 4,
         "Stars_count": 922,
         "Price": "$$",
@@ -2833,7 +2833,7 @@
         "Category": "['Japanese', 'Desserts', 'Cafes']",
         "Services": "['Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "1007 Stewart St #103, Seattle, WA 98101"
       }
     },
     {
@@ -3014,7 +3014,7 @@
         ]
       },
       "properties": {
-        "Name": "Caf\u00c3\u00a9 Campagne",
+        "Name": "Cafe Campagne",
         "Star": 4,
         "Stars_count": 1153,
         "Price": "$$",
@@ -3022,7 +3022,7 @@
         "Category": "['French', 'Breakfast & Brunch', 'Cafes']",
         "Services": "['Proof of vaccination required', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "Cafe Campagne"
       }
     },
     {
@@ -3035,7 +3035,7 @@
         ]
       },
       "properties": {
-        "Name": "Harry\u00e2\u20ac\u2122s Fine Foods",
+        "Name": "Harry's Fine Foods",
         "Star": 4,
         "Stars_count": 178,
         "Price": "$$",
@@ -3043,7 +3043,7 @@
         "Category": "['American (New)']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "601 Bellevue Ave E, Seattle, WA 98102"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "Category": "['Indian', 'Street Vendors']",
         "Services": "['Outdoor dining', 'Delivery', 'Takeout']",
         "Searched City": "Seattle",
-        "Address": null
+        "Address": "340 15th Ave E #202, Seattle, WA 98112"
       }
     },
     {
