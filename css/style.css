@@ -9,6 +9,7 @@
 body {
   background-color: #ffffff;
   color: #333;
+  margin: 0;
 }
 
 /* HEADER, NAVBAR css */
@@ -96,8 +97,8 @@ header #cta:hover {
   color: #666;
 }
 
-/* ABOUT css  */
-.about-container {
+/* previous ABOUT css  */
+/* .about-container {
   max-width: 900px;
   margin: 4rem auto;
   padding: 0 9%;
@@ -131,7 +132,7 @@ header #cta:hover {
 
 .about-container li {
   margin-bottom: 0.6rem;
-}
+} */
 
 /* HOMEPAGE css */
 .hero {
@@ -424,7 +425,7 @@ header #cta:hover {
 
 .team-container h1 {
   font-size: 2rem;
-  color: #962585;
+  color: #5c2d91;
   margin-bottom: 1rem;
 }
 
@@ -707,3 +708,46 @@ header #cta:hover {
 .tutorial-nav button:hover {
   background-color: #7a1f6f;
 }
+
+/* ABOUT css */
+#content-wrapper {
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 20px 30px;
+}
+
+.content-section h1 {
+	color: #5c2d91;
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+
+.content-section h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 24px;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 5px;
+}
+
+.content-section p,
+.content-section li {
+	color: #111;
+	line-height: 1.7;
+	font-size: 17px;
+}
+
+.content-section ul {
+	list-style-type: disc;
+	padding-left: 22px;
+	margin-top: 10px;
+}
+
+.content-section p {
+	margin-bottom: 15px;
+}
+
+.content-section ul li {
+	margin-bottom: 6px;
+} 
