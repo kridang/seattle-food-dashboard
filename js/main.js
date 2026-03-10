@@ -448,7 +448,6 @@ function initMap() {
       function updateChartsInView() {
         if (!allGeojsonFeatures.length) return;
         const bounds = map.getBounds();
-
         let filteredFeatures = allGeojsonFeatures;
 
         if (selectedPrices.length > 0) {
@@ -472,7 +471,10 @@ function initMap() {
           });
         }
 
-        const featuresInView = getRestaurantsInBounds(filteredFeatures, bounds);
+        const featuresInView = filteredFeatures.filter(f =>
+          bounds.contains(f.geometry.coordinates)
+        );
+
         renderCharts(featuresInView);
       }
 
