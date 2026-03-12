@@ -250,6 +250,8 @@ header #cta:hover {
 .left-section {
   width: 30%;
   padding: 10px;
+  overflow-y: auto;
+  height: 100%;
 }
 
 .right-section {
