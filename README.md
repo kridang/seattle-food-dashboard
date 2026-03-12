@@ -28,10 +28,12 @@ The Seattle Food Dashboard is an smart dashboard designed to help Seattle reside
 
 ## Functions
 - Interactive Map: Restaurants are displayed as point locations on a Mapbox map. Users can zoom and pan to explore different neighborhoods in Seattle.
-- Dynamic Charts: Pie and bar charts update automatically based on the restaurants currently visible on the map.
 - Filtering Tools: Allows users to filter restaurants by price level, rating, and category. The map and charts update dynamically based on the selected filters.
 - Restaurant Information Panel: Clicking on a restaurant point reveals key attributes such as rating, number of reviews, price level, and location.
-
+- Dynamic Charts: Pie and bar charts update automatically based on the restaurants currently visible on the map.
+![tables live demo](img/demo/tables.gif)
+- Tutorial: Clicking on the question mark icon on the bottom right corner shows a tutorial on how to use the website.
+![tutorial live demo](img/demo/tutorial.gif)
 ***
 
 ## Applied Libraries
